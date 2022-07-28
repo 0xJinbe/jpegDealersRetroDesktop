@@ -53,7 +53,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #fff;
+  background-color: rgba(96, 0, 121, 0.8);
   font-family: VT323, sans-serif;
   font-weight: 400;
 }
@@ -417,6 +417,8 @@ a {
 
 .text-block {
   position: absolute;
+  left: auto;
+  top: 5rem;
   -webkit-transform: translate(0px, -10px) rotate(-90deg);
   -ms-transform: translate(0px, -10px) rotate(-90deg);
   transform: translate(0px, -10px) rotate(-90deg);
@@ -485,7 +487,7 @@ a {
   position: absolute;
   display: block;
   width: auto;
-  height: 150px;
+  height: auto;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
@@ -494,7 +496,7 @@ a {
 .logo-center.text {
   top: 21%;
   display: block;
-  height: 300px;
+  height: 15rem;
 }
 
 .pre-looader {
@@ -746,12 +748,32 @@ a {
   align-items: center;
 }
 
+.logo-center-pfp {
+  position: absolute;
+  display: block;
+  width: 10rem;
+  height: auto;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.logo-center-pfp.text {
+  top: 21%;
+  display: block;
+  height: 15rem;
+}
+
 @media screen and (max-width: 991px) {
   .start-menu-wrap {
     display: none;
   }
 
   .start-menu-item-wrap.is-shutdown {
+    display: none;
+  }
+
+  .logo-center.text {
     display: none;
   }
 
@@ -774,9 +796,17 @@ a {
   .side-black-right {
     display: none;
   }
+
+  .logo-center-pfp.text {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  .desktop-wrapper {
+    background-color: rgba(96, 0, 121, 0.8);
+  }
+
   .desktop-icons-wrapper {
     width: 50%;
   }
@@ -821,7 +851,7 @@ a {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-color: #fff;
+    background-color: rgba(96, 0, 121, 0.8);
   }
 
   .desktop-icons-wrapper {
@@ -903,6 +933,19 @@ a {
 
   .looping-text-wrapper {
     display: none;
+  }
+
+  .logo-center-pfp {
+    position: relative;
+    top: auto;
+    z-index: 1;
+    max-width: 100%;
+  }
+
+  .logo-center-pfp.text {
+    position: relative;
+    top: auto;
+    max-width: 50%;
   }
 }
 

@@ -820,7 +820,7 @@ a {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-color: #e2dea9;
+    background-color: #fff;
   }
 
   .desktop-icons-wrapper {

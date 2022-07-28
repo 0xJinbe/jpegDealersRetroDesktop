@@ -797,6 +797,10 @@ a {
     display: none;
   }
 
+  .logo-center-pfp {
+    display: none;
+  }
+
   .logo-center-pfp.text {
     display: none;
   }

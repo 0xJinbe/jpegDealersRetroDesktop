@@ -811,9 +811,9 @@ a {
 }
 
 .link-block-socialicons {
-  width: 40px;
+  width: 35px;
   max-width: none;
-  padding-right: 10px;
+  padding-right: 0px;
   opacity: 0.7;
 }
 
@@ -835,6 +835,17 @@ a {
   font-family: Pressstart2p, sans-serif;
   font-size: 0.7rem;
   line-height: 1.5;
+}
+
+.link-block-socialiconstt {
+  width: 35px;
+  max-width: none;
+  padding-right: 0px;
+  opacity: 0.7;
+}
+
+.link-block-socialiconstt:hover {
+  opacity: 1;
 }
 
 @media screen and (max-width: 991px) {

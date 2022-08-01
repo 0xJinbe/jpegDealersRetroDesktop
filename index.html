@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Mon Aug 01 2022 15:02:42 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Mon Aug 01 2022 15:10:00 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="62e2a4390cd43d6d0c918185" data-wf-site="62e2a4390cd43d5258918184">
 <head>
   <meta charset="utf-8">
@@ -209,13 +209,13 @@
         //Save the times in variables
         var todayDam = new Date();
         var hoursDam = today.getHours() + 5;
-        var minutes = today.getMinutes();
-        var seconds = today.getSeconds();
+        var minutesDam = today.getMinutes();
+        var secondsDam = today.getSeconds();
         //Set the AM or PM time
         if (hoursDam >= 12) {
-          meridiem = " PM";
+          meridiemDam = " PM";
         } else {
-          meridiem = " AM";
+          meridiemDam = " AM";
         }
         //convert hours to 12 hour format and put 0 in front
         if (hoursDam > 12) {
@@ -224,31 +224,31 @@
           hoursDam = 12;
         }
         //Put 0 in front of single digit minutes and seconds
-        if (minutes < 10) {
-          minutes = "0" + minutes;
+        if (minutesDam < 10) {
+          minutesDam = "0" + minutesDam;
         } else {
-          minutes = minutes;
+          minutesDam = minutesDam;
         }
-        if (seconds < 10) {
-          seconds = "0" + seconds;
+        if (secondsDam < 10) {
+          secondsDam = "0" + secondsDam;
         } else {
-          seconds = seconds;
+          secondsDam = secondsDam;
         }
-        document.getElementById("clock-dam").innerHTML = (hoursDam + ":" + minutes + ":" + seconds + meridiem);
+        document.getElementById("clock-dam").innerHTML = (hoursDam + ":" + minutesDam + ":" + secondsDam + meridiemDam);
       }
       setInterval('clock()', 1000);
       //clock function NYC time
       function clock() {
         //Save the times in variables
-        var today = new Date();
+        var todayNyc = new Date();
         var hoursNyc = today.getHours() - 1;
-        var minutes = today.getMinutes();
-        var seconds = today.getSeconds();
+        var minutesNyc = today.getMinutes();
+        var secondsNyc = today.getSeconds();
         //Set the AM or PM time
         if (hoursNyc >= 12) {
-          meridiem = " PM";
+          meridiemNyc = " PM";
         } else {
-          meridiem = " AM";
+          meridiemNyc = " AM";
         }
         //convert hours to 12 hour format and put 0 in front
         if (hoursNyc > 12) {
@@ -257,17 +257,17 @@
           hoursNyc = 12;
         }
         //Put 0 in front of single digit minutes and seconds
-        if (minutes < 10) {
-          minutes = "0" + minutes;
+        if (minutesNyc < 10) {
+          minutesNyc = "0" + minutesNyc;
         } else {
-          minutes = minutes;
+          minutesNyc = minutesNyc;
         }
-        if (seconds < 10) {
-          seconds = "0" + seconds;
+        if (secondsNyc < 10) {
+          secondsNyc = "0" + secondsNyc;
         } else {
-          seconds = seconds;
+          secondsNyc = secondsNyc;
         }
-        document.getElementById("clock-nyc").innerHTML = (hoursNyc + ":" + minutes + ":" + seconds + meridiem);
+        document.getElementById("clock-nyc").innerHTML = (hoursNyc + ":" + minutesNyc + ":" + secondsNyc + meridiemNyc);
       }
       setInterval('clock()', 1000);
     </script>

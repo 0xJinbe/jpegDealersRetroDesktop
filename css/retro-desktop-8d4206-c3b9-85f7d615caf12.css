@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: Pressstart2p, sans-serif;
   color: #333;
   font-size: 14px;
   line-height: 20px;
@@ -98,8 +98,8 @@ a {
 .icons-heading {
   margin-top: 6px;
   margin-bottom: 6px;
-  font-family: VT323, sans-serif;
-  font-size: 1.8rem;
+  font-family: Pressstart2p, sans-serif;
+  font-size: 0.8rem;
   line-height: 3rem;
   text-transform: uppercase;
 }
@@ -156,6 +156,8 @@ a {
 .menu-title {
   margin-top: 0px;
   margin-bottom: 0px;
+  font-family: Pressstart2p, sans-serif;
+  font-size: 0.7rem;
   font-weight: 400;
 }
 
@@ -359,7 +361,8 @@ a {
 }
 
 .menu-link-title {
-  font-size: 2rem;
+  font-family: Pressstart2p, sans-serif;
+  font-size: 0.7rem;
   line-height: 2rem;
 }
 
@@ -424,7 +427,8 @@ a {
   -webkit-transform: translate(0px, -10px) rotate(-90deg);
   -ms-transform: translate(0px, -10px) rotate(-90deg);
   transform: translate(0px, -10px) rotate(-90deg);
-  font-size: 1rem;
+  font-family: Pressstart2p, sans-serif;
+  font-size: 0.5rem;
 }
 
 .clock-wrapper {
@@ -521,7 +525,8 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #141414;
+  background-color: #000;
+  color: #000;
 }
 
 .loading-block-wrapper {
@@ -720,7 +725,7 @@ a {
 }
 
 .image {
-  max-width: 60%;
+  max-width: 30%;
   margin-bottom: 2rem;
   border-radius: 130px;
   opacity: 1;
@@ -736,6 +741,8 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 30px;
+  padding-left: 30px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -745,10 +752,10 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .logo-center-pfp {
@@ -781,8 +788,10 @@ a {
 }
 
 .text-block-2 {
-  color: #116e2f;
-  font-size: 1.3rem;
+  font-family: Pressstart2p, sans-serif;
+  color: #00e4ff;
+  font-size: 0.8rem;
+  line-height: 1.5;
 }
 
 .socialiconswrapper {
@@ -816,7 +825,15 @@ a {
 }
 
 .timetext {
-  font-size: 2rem;
+  font-family: Pressstart2p, sans-serif;
+  font-size: 0.7rem;
+  line-height: 1.5;
+}
+
+.link {
+  font-family: Pressstart2p, sans-serif;
+  font-size: 0.7rem;
+  line-height: 1.5;
 }
 
 @media screen and (max-width: 991px) {
@@ -1055,6 +1072,13 @@ a {
 @font-face {
   font-family: 'Handjet[egrd,eshp,wght]';
   src: url('../images/') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Pressstart2p';
+  src: url('../fonts/PressStart2P.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;

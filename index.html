@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Mon Aug 01 2022 14:53:40 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Mon Aug 01 2022 14:57:53 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="62e2a4390cd43d6d0c918185" data-wf-site="62e2a4390cd43d5258918184">
 <head>
   <meta charset="utf-8">
@@ -186,7 +186,7 @@
       <div class="nav-bar-divider"></div>
       <div class="clock-wrapper">
         <div class="timetext">NYC</div><img src="images/Time_light.svg" loading="lazy" alt="" class="clock-icon">
-        <div id="clock" class="clock"></div>
+        <div id="clock-nyc" class="clock"></div>
       </div>
     </div>
   </div>
@@ -204,7 +204,7 @@
         $(".popup").css("z-index", 0);
         $(this).css("z-index", 1);
       });
-      //clock function
+      //clock function DAM time
       function clock() {
         //Save the times in variables
         var today = new Date();
@@ -235,6 +235,39 @@
           seconds = seconds;
         }
         document.getElementById("clock-dam").innerHTML = (hours + ":" + minutes + ":" + seconds + meridiem);
+      }
+      setInterval('clock()', 1000);
+      //clock function NYC time
+      function clock() {
+        //Save the times in variables
+        var today = new Date();
+        var hours = today.getHours() - 1;
+        var minutes = today.getMinutes();
+        var seconds = today.getSeconds();
+        //Set the AM or PM time
+        if (hours >= 12) {
+          meridiem = " PM";
+        } else {
+          meridiem = " AM";
+        }
+        //convert hours to 12 hour format and put 0 in front
+        if (hours > 12) {
+          hours = hours - 12;
+        } else if (hours === 0) {
+          hours = 12;
+        }
+        //Put 0 in front of single digit minutes and seconds
+        if (minutes < 10) {
+          minutes = "0" + minutes;
+        } else {
+          minutes = minutes;
+        }
+        if (seconds < 10) {
+          seconds = "0" + seconds;
+        } else {
+          seconds = seconds;
+        }
+        document.getElementById("clock-nyc").innerHTML = (hours + ":" + minutes + ":" + seconds + meridiem);
       }
       setInterval('clock()', 1000);
     </script>

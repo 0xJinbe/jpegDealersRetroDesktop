@@ -510,10 +510,7 @@ a {
 .pre-looader {
   position: absolute;
   z-index: 200;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100vw;
   height: 100vh;
   -webkit-box-orient: vertical;
@@ -687,7 +684,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  width: 50vw;
+  width: auto;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -729,7 +726,7 @@ a {
 }
 
 .image {
-  max-width: 30%;
+  max-width: 15%;
   margin-bottom: 2rem;
   border-radius: 130px;
   opacity: 1;

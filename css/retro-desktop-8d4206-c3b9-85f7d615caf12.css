@@ -53,7 +53,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: rgba(96, 0, 121, 0.8);
+  background-color: #fff;
   font-family: VT323, sans-serif;
   font-weight: 400;
 }
@@ -130,7 +130,7 @@ a {
 }
 
 .desktop-icons {
-  width: 5rem;
+  width: 3.5rem;
 }
 
 .menu-button {
@@ -502,7 +502,10 @@ a {
 .pre-looader {
   position: absolute;
   z-index: 200;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 100vw;
   height: 100vh;
   -webkit-box-orient: vertical;
@@ -519,9 +522,6 @@ a {
   -ms-flex-align: center;
   align-items: center;
   background-color: #141414;
-  background-image: url('../images/retrowaveBG.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
 }
 
 .loading-block-wrapper {
@@ -726,9 +726,12 @@ a {
   opacity: 1;
 }
 
-.centerwrapper {
-  position: relative;
-  top: -92px;
+.upperleft {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -762,6 +765,24 @@ a {
   top: 21%;
   display: block;
   height: 15rem;
+}
+
+.lowleftwrapper {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  width: auto;
+  max-height: 50vh;
+  max-width: 50vw;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.text-block-2 {
+  color: #116e2f;
+  font-size: 1.3rem;
 }
 
 @media screen and (max-width: 991px) {

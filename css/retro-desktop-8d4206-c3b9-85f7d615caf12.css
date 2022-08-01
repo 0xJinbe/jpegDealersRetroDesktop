@@ -510,7 +510,10 @@ a {
 .pre-looader {
   position: absolute;
   z-index: 200;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 100vw;
   height: 100vh;
   -webkit-box-orient: vertical;
@@ -790,8 +793,8 @@ a {
 
 .text-block-2 {
   font-family: Pressstart2p, sans-serif;
-  color: #00e4ff;
-  font-size: 0.8rem;
+  color: #00ff41;
+  font-size: 0.7rem;
   line-height: 1.5;
 }
 

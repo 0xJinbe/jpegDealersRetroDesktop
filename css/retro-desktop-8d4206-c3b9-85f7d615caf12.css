@@ -163,7 +163,7 @@ a {
   display: block;
   width: 0.3rem;
   min-height: 2rem;
-  margin-right: 0rem;
+  margin-right: 1rem;
   background-color: #ececec;
   box-shadow: inset -3px -3px 0 0 #fff, 2px 2px 0 0 #a7a7a7;
 }
@@ -678,7 +678,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  width: 45vw;
+  width: 50vw;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -816,7 +816,7 @@ a {
 }
 
 .timetext {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 991px) {

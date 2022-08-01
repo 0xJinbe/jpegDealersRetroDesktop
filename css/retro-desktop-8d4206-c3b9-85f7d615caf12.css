@@ -418,10 +418,12 @@ a {
 .text-block {
   position: absolute;
   left: auto;
-  top: 5rem;
+  top: 148px;
+  width: 200px;
   -webkit-transform: translate(0px, -10px) rotate(-90deg);
   -ms-transform: translate(0px, -10px) rotate(-90deg);
   transform: translate(0px, -10px) rotate(-90deg);
+  font-size: 1rem;
 }
 
 .clock-wrapper {
@@ -502,10 +504,7 @@ a {
 .pre-looader {
   position: absolute;
   z-index: 200;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100vw;
   height: 100vh;
   -webkit-box-orient: vertical;
@@ -783,6 +782,36 @@ a {
 .text-block-2 {
   color: #116e2f;
   font-size: 1.3rem;
+}
+
+.socialiconswrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.link-block-socialicons {
+  width: 40px;
+  max-width: none;
+  padding-right: 10px;
+  opacity: 0.7;
+}
+
+.link-block-socialicons:hover {
+  opacity: 1;
+}
+
+.socialicon {
+  opacity: 1;
 }
 
 @media screen and (max-width: 991px) {

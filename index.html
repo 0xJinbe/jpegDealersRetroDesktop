@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Mon Aug 01 2022 15:10:00 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Mon Aug 01 2022 15:13:33 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="62e2a4390cd43d6d0c918185" data-wf-site="62e2a4390cd43d5258918184">
 <head>
   <meta charset="utf-8">
@@ -205,7 +205,7 @@
         $(this).css("z-index", 1);
       });
       //clock function DAM time
-      function clock() {
+      function clockDam() {
         //Save the times in variables
         var todayDam = new Date();
         var hoursDam = today.getHours() + 5;
@@ -236,9 +236,9 @@
         }
         document.getElementById("clock-dam").innerHTML = (hoursDam + ":" + minutesDam + ":" + secondsDam + meridiemDam);
       }
-      setInterval('clock()', 1000);
+      setInterval('clockDam()', 1000);
       //clock function NYC time
-      function clock() {
+      function clockNyc() {
         //Save the times in variables
         var todayNyc = new Date();
         var hoursNyc = today.getHours() - 1;
@@ -269,7 +269,7 @@
         }
         document.getElementById("clock-nyc").innerHTML = (hoursNyc + ":" + minutesNyc + ":" + secondsNyc + meridiemNyc);
       }
-      setInterval('clock()', 1000);
+      setInterval('clockNyc()', 1000);
     </script>
 </body>
 </html>

@@ -510,10 +510,7 @@ a {
 .pre-looader {
   position: absolute;
   z-index: 200;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100vw;
   height: 100vh;
   -webkit-box-orient: vertical;
@@ -764,7 +761,7 @@ a {
 
 .logo-center-pfp {
   position: absolute;
-  display: block;
+  display: none;
   width: 10rem;
   height: auto;
   border-radius: 80px;

@@ -45,26 +45,27 @@ a {
   display: flex;
   width: 100vw;
   height: 100vh;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   background-color: #fff;
   font-family: VT323, sans-serif;
   font-weight: 400;
 }
 
 .desktop-icons-wrapper {
-  position: absolute;
+  position: relative;
   left: 0%;
   top: 0%;
   right: auto;
   bottom: auto;
-  width: 10%;
+  width: 50%;
+  max-width: none;
   padding-top: 2.8rem;
   padding-left: 2rem;
 }

@@ -27,6 +27,10 @@ h2 {
 }
 
 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   color: #141414;
   text-decoration: none;
 }
@@ -64,10 +68,37 @@ a {
   top: 0%;
   right: auto;
   bottom: auto;
-  width: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 90vh;
   max-width: none;
   padding-top: 2.8rem;
   padding-left: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto auto;
+  grid-template-rows: auto auto auto;
 }
 
 .desktop-icon-wrapper {
@@ -75,6 +106,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 5%;
   padding: 0.3rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -92,16 +124,23 @@ a {
 }
 
 .desktop-icon-wrapper.is-portfolio-icon {
+  position: relative;
+  width: 10%;
   color: #141414;
   text-decoration: none;
+}
+
+.desktop-icon-wrapper.is-services-icon {
+  width: 10%;
 }
 
 .icons-heading {
   margin-top: 6px;
   margin-bottom: 6px;
   font-family: Pressstart2p, sans-serif;
-  font-size: 0.8rem;
-  line-height: 3rem;
+  font-size: 0.5rem;
+  line-height: 2rem;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -117,8 +156,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   height: auto;
-  padding-top: 0.9rem;
-  padding-bottom: 0.9rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -131,7 +170,7 @@ a {
 }
 
 .desktop-icons {
-  width: 3.5rem;
+  width: 3rem;
 }
 
 .menu-button {
@@ -140,8 +179,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 8rem;
-  margin: 0rem 1rem;
-  padding: 0.25rem 0rem;
+  margin: 0rem 0rem 0rem 1rem;
+  padding: 0rem;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -896,7 +935,7 @@ a {
 
 @media screen and (max-width: 767px) {
   .desktop-wrapper {
-    background-color: rgba(96, 0, 121, 0.8);
+    background-color: #fff;
   }
 
   .desktop-icons-wrapper {
@@ -943,7 +982,7 @@ a {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-color: rgba(96, 0, 121, 0.8);
+    background-color: #fff;
   }
 
   .desktop-icons-wrapper {
@@ -1003,6 +1042,10 @@ a {
     position: absolute;
     bottom: 101%;
     z-index: 100;
+    display: none;
+  }
+
+  .clock-wrapper {
     display: none;
   }
 

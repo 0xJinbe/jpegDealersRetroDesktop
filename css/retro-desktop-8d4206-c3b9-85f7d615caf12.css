@@ -955,6 +955,10 @@ a {
   .logo-center-pfp.text {
     display: none;
   }
+
+  .text-block-landing {
+    font-size: 0.5rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -963,7 +967,7 @@ a {
   }
 
   .desktop-icons-wrapper {
-    width: 50%;
+    width: 100%;
   }
 
   .desktop-icon-wrapper.is-portfolio-icon {
@@ -1011,9 +1015,14 @@ a {
 
   .desktop-icons-wrapper {
     z-index: 0;
-    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     padding-top: 0rem;
     padding-left: 0.6rem;
+    -o-object-fit: fill;
+    object-fit: fill;
   }
 
   .desktop-icon-wrapper.is-portfolio-icon {
@@ -1090,6 +1099,10 @@ a {
     max-width: 50%;
   }
 
+  .pre-looader {
+    display: none;
+  }
+
   .looping-text-wrapper {
     display: none;
   }
@@ -1105,6 +1118,11 @@ a {
     position: relative;
     top: auto;
     max-width: 50%;
+  }
+
+  .lowleftwrapper {
+    padding-bottom: 5px;
+    padding-left: 5px;
   }
 
   .social-wrapper {

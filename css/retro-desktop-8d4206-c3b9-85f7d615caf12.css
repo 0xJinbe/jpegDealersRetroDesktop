@@ -241,7 +241,7 @@ a {
   top: 2%;
   z-index: 20;
   display: none;
-  width: 70%;
+  width: 60%;
   padding: 0.1rem;
   border: 1px solid #000;
 }
@@ -284,7 +284,7 @@ a {
   align-items: center;
   border: 1px solid #000;
   background-color: #7600c7;
-  background-image: linear-gradient(267deg, #290c5e 20%, #fff);
+  background-image: linear-gradient(267deg, #290c5e 36%, #fff);
   cursor: -webkit-grab;
   cursor: grab;
 }

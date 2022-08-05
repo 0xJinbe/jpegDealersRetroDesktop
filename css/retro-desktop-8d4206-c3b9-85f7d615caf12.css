@@ -588,7 +588,10 @@ a {
 .pre-looader {
   position: absolute;
   z-index: 200;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 100vw;
   height: 100vh;
   -webkit-box-orient: vertical;
@@ -872,7 +875,7 @@ a {
 .text-block-landing {
   font-family: Pressstart2p, sans-serif;
   color: #00ff41;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   line-height: 1.5;
 }
 
@@ -1018,6 +1021,11 @@ a {
 
   .logo-center-pfp.text {
     display: none;
+  }
+
+  .lowleftwrapper {
+    padding-bottom: 10px;
+    padding-left: 10px;
   }
 
   .text-block-landing {

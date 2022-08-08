@@ -216,7 +216,10 @@ a {
   top: 10%;
   right: auto;
   bottom: auto;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 40rem;
   height: auto;
   max-height: none;
@@ -257,6 +260,7 @@ a {
 .popup.is-portfolio {
   left: 34%;
   top: 10%;
+  z-index: 20;
   display: none;
 }
 
@@ -588,10 +592,7 @@ a {
 .pre-looader {
   position: absolute;
   z-index: 200;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100vw;
   height: 100vh;
   -webkit-box-orient: vertical;

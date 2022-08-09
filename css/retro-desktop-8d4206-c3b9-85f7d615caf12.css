@@ -134,6 +134,10 @@ a {
   width: 10%;
 }
 
+.desktop-icon-wrapper.is-contact-icon {
+  width: 10%;
+}
+
 .icons-heading {
   margin-top: 6px;
   margin-bottom: 6px;
@@ -255,8 +259,9 @@ a {
 }
 
 .popup.is-portfolio {
-  left: 34%;
-  top: 10%;
+  left: 33%;
+  top: 2%;
+  z-index: 30;
   display: none;
 }
 
@@ -283,8 +288,9 @@ a {
   -ms-flex-align: center;
   align-items: center;
   border: 1px solid #000;
-  background-color: #7600c7;
-  background-image: linear-gradient(267deg, #290c5e 36%, #fff);
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, right top, from(#8b008b), to(#290c5e));
+  background-image: linear-gradient(90deg, #8b008b, #290c5e);
   cursor: -webkit-grab;
   cursor: grab;
 }

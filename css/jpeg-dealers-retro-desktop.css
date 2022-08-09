@@ -408,8 +408,8 @@ a {
   min-width: 12rem;
   margin-left: 0.5rem;
   padding-right: 0px;
-  font-size: 2rem;
-  line-height: 2rem;
+  font-size: 0.7rem;
+  line-height: 1;
 }
 
 .menu-side-wrapper {

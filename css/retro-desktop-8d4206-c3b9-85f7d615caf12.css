@@ -68,7 +68,6 @@ a {
   top: 0%;
   right: auto;
   bottom: auto;
-  z-index: 1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -217,10 +216,7 @@ a {
   top: 10%;
   right: auto;
   bottom: auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 40rem;
   height: auto;
   max-height: none;
@@ -253,20 +249,19 @@ a {
 .popup.is-contact {
   left: 62%;
   top: 31%;
-  z-index: 20;
+  z-index: 25;
   display: none;
   width: auto;
 }
 
 .popup.is-portfolio {
-  left: 20%;
-  top: 2%;
-  z-index: 5;
+  left: 34%;
+  top: 10%;
   display: none;
 }
 
 .popup.credit {
-  z-index: 20;
+  z-index: 150;
   display: none;
   width: 25rem;
 }
@@ -288,10 +283,8 @@ a {
   -ms-flex-align: center;
   align-items: center;
   border: 1px solid #000;
-  background-color: transparent;
-  background-image: linear-gradient(88deg, #8b008b, #7300d0 100%, #fff);
-  background-clip: border-box;
-  -webkit-text-fill-color: inherit;
+  background-color: #7600c7;
+  background-image: linear-gradient(267deg, #290c5e 36%, #fff);
   cursor: -webkit-grab;
   cursor: grab;
 }
@@ -1206,7 +1199,7 @@ a {
   }
 }
 
-#w-node-d3aa7111-d0ce-2b05-b4eb-b34224b895db-0c918185 {
+#w-node-d3aa7111-d0ce-2b05-b4eb-b34224b895db-a52e0954 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -1217,7 +1210,7 @@ a {
   grid-row-end: span 1;
 }
 
-#w-node-d3aa7111-d0ce-2b05-b4eb-b34224b895dc-0c918185 {
+#w-node-d3aa7111-d0ce-2b05-b4eb-b34224b895dc-a52e0954 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -1228,7 +1221,7 @@ a {
   grid-row-end: span 1;
 }
 
-#w-node-d3aa7111-d0ce-2b05-b4eb-b34224b895dd-0c918185 {
+#w-node-d3aa7111-d0ce-2b05-b4eb-b34224b895dd-a52e0954 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -1239,7 +1232,7 @@ a {
   grid-row-end: span 1;
 }
 
-#w-node-d3aa7111-d0ce-2b05-b4eb-b34224b895de-0c918185 {
+#w-node-d3aa7111-d0ce-2b05-b4eb-b34224b895de-a52e0954 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;

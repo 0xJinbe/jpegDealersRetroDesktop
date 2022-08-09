@@ -315,7 +315,7 @@ a {
   top: auto;
   right: auto;
   bottom: 98%;
-  display: none;
+  display: block;
   width: auto;
   min-height: 3rem;
   padding: 1rem 1rem 1rem 3rem;
@@ -324,7 +324,7 @@ a {
 }
 
 .menu-link-title {
-  font-size: 2rem;
+  font-size: 0.7rem;
   line-height: 2rem;
 }
 

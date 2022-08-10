@@ -218,7 +218,9 @@ a {
   top: 25%;
   z-index: 25;
   display: none;
-  width: auto;
+  width: 500px;
+  min-height: auto;
+  min-width: auto;
 }
 
 .popup.is-portfolio {
@@ -723,6 +725,14 @@ a {
 }
 
 @media screen and (max-width: 991px) {
+  .popup.is-contact {
+    left: 20%;
+  }
+
+  .popup.is-portfolio {
+    left: 10%;
+  }
+
   .start-menu-wrap {
     display: none;
   }
@@ -792,6 +802,11 @@ a {
     display: none;
   }
 
+  .popup.is-portfolio {
+    left: auto;
+    width: auto;
+  }
+
   .popup.credit {
     display: none;
   }
@@ -838,12 +853,18 @@ a {
   }
 
   .popup.is-services {
+    left: 1%;
+    top: 1%;
     z-index: 180;
     display: none;
   }
 
   .popup.is-contact {
+    left: auto;
+    top: 25%;
     z-index: 120;
+    display: none;
+    width: 360px;
   }
 
   .popup.is-portfolio {
@@ -860,6 +881,11 @@ a {
     left: 0%;
     display: none;
     width: auto;
+  }
+
+  .contact-wrapper {
+    padding-right: 0.1rem;
+    padding-left: 0.1rem;
   }
 
   .start-menu-wrap {
@@ -884,6 +910,14 @@ a {
   .lowleftwrapper {
     padding-bottom: 5px;
     padding-left: 5px;
+  }
+
+  .contactrowwrapper {
+    min-width: 260px;
+  }
+
+  .contactrowwrapper-message {
+    min-width: 260px;
   }
 }
 

@@ -241,7 +241,10 @@ a {
 
 .popup.is-vx-work1 {
   left: 20%;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 15rem;
   height: 15rem;
   -webkit-box-pack: start;
@@ -254,7 +257,10 @@ a {
 .popup.is-vx-work2 {
   left: 45%;
   top: 15%;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 15rem;
   height: 15rem;
   -webkit-box-pack: start;
@@ -266,7 +272,10 @@ a {
 .popup.is-vx-work3 {
   left: 25%;
   top: 45%;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 15rem;
   height: 15rem;
 }
@@ -781,6 +790,12 @@ a {
 .headingvxwork {
   margin-top: 0px;
   font-size: 0.7rem;
+}
+
+.vxpopupwrapper {
+  display: none;
+  width: 100vw;
+  height: 100vh;
 }
 
 @media screen and (max-width: 991px) {

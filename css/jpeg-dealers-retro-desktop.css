@@ -1065,6 +1065,7 @@ a {
 
   .popup.is-work-ethics {
     left: auto;
+    top: 5%;
     display: none;
     width: auto;
   }
@@ -1126,6 +1127,10 @@ a {
 
   .vxpopupwrapper {
     display: none;
+  }
+
+  .workethicswrapper {
+    padding-left: 1rem;
   }
 }
 

@@ -1067,6 +1067,7 @@ a {
   .popup.is-work-ethics {
     left: auto;
     top: 5%;
+    z-index: 195;
     display: none;
     width: auto;
   }
@@ -1127,6 +1128,7 @@ a {
   }
 
   .vxpopupwrapper {
+    z-index: 170;
     display: none;
   }
 

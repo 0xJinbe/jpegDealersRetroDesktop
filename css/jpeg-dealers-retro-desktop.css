@@ -281,7 +281,7 @@ a {
 }
 
 .popup.is-work-ethics {
-  top: 1%;
+  top: auto;
   display: none;
   width: 35rem;
 }

@@ -831,7 +831,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 40rem;
+  height: auto;
   padding-right: 2.6rem;
   padding-bottom: 1rem;
   padding-left: 2.6rem;

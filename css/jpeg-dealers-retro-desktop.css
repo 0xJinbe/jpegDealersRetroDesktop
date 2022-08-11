@@ -1026,6 +1026,7 @@ a {
   .popup.is-services {
     left: 1%;
     top: 1%;
+    right: 1%;
     z-index: 180;
     display: none;
   }
@@ -1033,15 +1034,16 @@ a {
   .popup.is-contact {
     left: 1%;
     top: 1%;
+    right: 1%;
     z-index: 120;
     display: none;
-    width: 360px;
+    width: auto;
   }
 
   .popup.is-portfolio {
     left: 1%;
     top: 1%;
-    right: auto;
+    right: 1%;
     bottom: auto;
     z-index: 160;
     display: none;
@@ -1071,12 +1073,14 @@ a {
   .popup.is-work-ethics {
     left: 1%;
     top: 1%;
+    right: 1%;
     z-index: 195;
     display: none;
     width: auto;
   }
 
   .contact-wrapper {
+    width: auto;
     padding-right: 0.1rem;
     padding-left: 0.1rem;
   }
@@ -1105,8 +1109,14 @@ a {
     padding-left: 5px;
   }
 
+  .services-wrapper-2 {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
+
   .contactrowwrapper {
-    min-width: 260px;
+    width: 100%;
+    min-width: auto;
   }
 
   .contactrowwrapper-message {
@@ -1138,6 +1148,10 @@ a {
 
   .workethicswrapper {
     padding-left: 1rem;
+  }
+
+  .paragraphwethics {
+    color: rgba(20, 20, 20, 0.85);
   }
 }
 

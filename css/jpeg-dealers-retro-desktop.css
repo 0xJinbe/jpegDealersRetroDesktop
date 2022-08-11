@@ -803,6 +803,7 @@ a {
 }
 
 .vxpopupwrapper {
+  position: relative;
   display: none;
   width: 100vw;
   height: 100vh;
@@ -1034,7 +1035,7 @@ a {
   }
 
   .popup.is-portfolio {
-    left: 0%;
+    left: auto;
     top: 6%;
     right: auto;
     bottom: auto;

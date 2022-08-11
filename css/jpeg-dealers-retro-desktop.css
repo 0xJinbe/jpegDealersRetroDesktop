@@ -203,7 +203,7 @@ a {
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   border: 1px solid #000;
-  background-color: #ececec;
+  background-color: #d6d6d1;
 }
 
 .popup.is-services {
@@ -232,8 +232,39 @@ a {
 
 .popup.credit {
   z-index: 150;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 25rem;
+}
+
+.popup.is-vx-work1 {
+  left: 20%;
+  display: none;
+  width: 15rem;
+  height: 15rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  background-color: #d6d6d1;
+}
+
+.popup.is-vx-work2 {
+  left: 120%;
+  width: 15rem;
+  height: 15rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.popup.is-vx-work3 {
+  top: 120%;
+  width: 15rem;
+  height: 15rem;
 }
 
 .popup-top-bar {
@@ -723,6 +754,29 @@ a {
 .portfoliotext {
   margin-bottom: 10px;
   color: #8b008b;
+}
+
+.vxworkcontent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding: 0.2rem;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.div-block {
+  height: 100%;
+}
+
+.headingvxwork {
+  margin-top: 0px;
+  font-size: 0.7rem;
 }
 
 @media screen and (max-width: 991px) {

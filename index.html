@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Thu Aug 11 2022 18:11:22 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Thu Aug 11 2022 18:27:17 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="62f3ee42928feb55bb8673a4" data-wf-site="62f1b5c73d1cea6afc3c38ee">
 <head>
   <meta charset="utf-8">
@@ -113,28 +113,43 @@
         </div>
       </div>
     </div>
-    <div id="popup-credits" class="popup credit">
+    <div id="popup-credits" class="popup is-vx-work1">
       <div class="popup-top-bar">
         <div class="popup-title-wrap">
-          <div class="popup-title">Credits</div>
+          <div class="popup-title">VX WORK</div>
         </div>
         <div class="popup-button-wrap">
-          <a href="#" class="popup-button expand w-inline-block"><img src="images/full-frame-icon.svg" loading="lazy" alt="" class="icon"></a>
           <a href="#" class="popup-button close w-inline-block"><img src="images/Close_round_duotone_line_1Close_round_duotone_line.png" loading="lazy" alt="" class="icon"></a>
         </div>
       </div>
-      <div class="credit-content"></div>
-      <div id="popup-portfolio" class="popup">
+      <div class="vxworkcontent">
+        <h1 class="headingvxwork">Project Name</h1>
+      </div>
+      <div id="popup-portfolio" class="popup is-vx-work2">
         <div class="popup-top-bar">
           <div class="popup-title-wrap">
-            <div class="popup-title">Credits</div>
+            <div class="popup-title">VX Work</div>
           </div>
           <div class="popup-button-wrap">
-            <a href="#" class="popup-button expand w-inline-block"><img src="images/full-frame-icon.svg" loading="lazy" alt="" class="icon"></a>
             <a href="#" class="popup-button close w-inline-block"><img src="images/Close_round_duotone_line_1Close_round_duotone_line.png" loading="lazy" alt="" class="icon"></a>
           </div>
         </div>
-        <div></div>
+        <div class="vxworkcontent">
+          <h1 class="headingvxwork">Project Name</h1>
+        </div>
+      </div>
+      <div id="popup-portfolio" class="popup is-vx-work3">
+        <div class="popup-top-bar">
+          <div class="popup-title-wrap">
+            <div class="popup-title">VX Work</div>
+          </div>
+          <div class="popup-button-wrap">
+            <a href="#" class="popup-button close w-inline-block"><img src="images/Close_round_duotone_line_1Close_round_duotone_line.png" loading="lazy" alt="" class="icon"></a>
+          </div>
+        </div>
+        <div class="vxworkcontent">
+          <h1 class="headingvxwork">Project Name</h1>
+        </div>
       </div>
     </div>
     <div class="desktop-icons-wrapper">
@@ -153,7 +168,7 @@
       <a href="#" class="desktop-icon-wrapper is-references-icon w-inline-block"><img src="images/checkmark.png" loading="lazy" alt="" class="desktop-icons">
         <h2 class="icons-heading">references</h2>
       </a>
-      <a href="#" class="desktop-icon-wrapper is-vx-work-icon w-inline-block"><img src="images/arrowIcon.png" loading="lazy" alt="" class="desktop-icons">
+      <a data-w-id="8ad59c7d-3997-2f07-54b5-b922721dd83c" href="#" class="desktop-icon-wrapper is-vx-work-icon w-inline-block"><img src="images/arrowIcon.png" loading="lazy" alt="" class="desktop-icons">
         <h2 class="icons-heading">vx work</h2>
       </a>
       <a data-w-id="9d63a54c-c494-a257-75e9-dbf5be9cd70f" href="#" class="desktop-icon-wrapper is-contact-icon w-inline-block"><img src="images/letterIcon.webp" loading="lazy" alt="" class="desktop-icons">
@@ -213,6 +228,9 @@
       $("#popup-services").draggable();
       $("#popup-contact").draggable();
       $("#popup-credits").draggable();
+      $("#popup-is-vx-work1").draggable();
+      $("#popup-is-vx-work2").draggable();
+      $("#popup-is-vx-work3").draggable();
       $(".popup").mousedown(function() {
         $(".popup").css("z-index", 1);
         $(this).css("z-index", 10);

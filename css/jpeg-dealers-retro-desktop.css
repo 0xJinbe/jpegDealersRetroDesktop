@@ -771,6 +771,11 @@ a {
 
 .portfoliotext {
   margin-bottom: 10px;
+  color: #005249;
+  line-height: 1.3;
+}
+
+.portfoliotext.whatsdone {
   color: #8b008b;
 }
 
@@ -841,13 +846,13 @@ a {
   -ms-flex-align: start;
   align-items: flex-start;
   border: 1px solid #000;
-  background-color: #fff;
+  background-color: #ececec;
 }
 
 .paragraphwethics {
   margin-bottom: 10px;
   font-family: Pressstart2p, sans-serif;
-  color: #666;
+  color: #005249;
   font-size: 0.5rem;
   line-height: 1.3;
 }
@@ -1086,7 +1091,7 @@ a {
   }
 
   .portfolioinnerwrapp {
-    min-height: 550px;
+    min-height: 450px;
     padding-left: 0.4rem;
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -1094,8 +1099,13 @@ a {
     align-items: center;
   }
 
+  .portfolioleftwrapp {
+    margin-right: 10px;
+  }
+
   .portfoliotext {
     margin-bottom: 20px;
+    line-height: 1.4;
   }
 
   .vxpopupwrapper {

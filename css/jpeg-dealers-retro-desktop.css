@@ -252,7 +252,9 @@ a {
 }
 
 .popup.is-vx-work2 {
-  left: 120%;
+  left: 45%;
+  top: 15%;
+  display: none;
   width: 15rem;
   height: 15rem;
   -webkit-box-pack: start;
@@ -262,7 +264,9 @@ a {
 }
 
 .popup.is-vx-work3 {
-  top: 120%;
+  left: 25%;
+  top: 45%;
+  display: none;
   width: 15rem;
   height: 15rem;
 }

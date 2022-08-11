@@ -800,6 +800,7 @@ a {
 
 .headingvxwork {
   margin-top: 0px;
+  color: #005249;
   font-size: 0.7rem;
 }
 
@@ -820,6 +821,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1028,16 +1031,16 @@ a {
   }
 
   .popup.is-contact {
-    left: auto;
-    top: 25%;
+    left: 1%;
+    top: 1%;
     z-index: 120;
     display: none;
     width: 360px;
   }
 
   .popup.is-portfolio {
-    left: auto;
-    top: 6%;
+    left: 1%;
+    top: 1%;
     right: auto;
     bottom: auto;
     z-index: 160;
@@ -1052,22 +1055,22 @@ a {
   }
 
   .popup.is-vx-work1 {
-    top: 5%;
+    top: 1%;
   }
 
   .popup.is-vx-work2 {
     left: 20%;
-    top: 35%;
+    top: 30%;
   }
 
   .popup.is-vx-work3 {
     left: 20%;
-    top: 65%;
+    top: 60%;
   }
 
   .popup.is-work-ethics {
-    left: auto;
-    top: 5%;
+    left: 1%;
+    top: 1%;
     z-index: 195;
     display: none;
     width: auto;

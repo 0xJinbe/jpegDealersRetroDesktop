@@ -910,6 +910,10 @@ a {
   .text-block-landing {
     font-size: 0.5rem;
   }
+
+  .vxpopupwrapper {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -949,6 +953,10 @@ a {
   }
 
   .start-menu-wrap {
+    display: none;
+  }
+
+  .vxpopupwrapper {
     display: none;
   }
 }
@@ -1020,6 +1028,26 @@ a {
     width: auto;
   }
 
+  .popup.is-vx-work1 {
+    top: 5%;
+  }
+
+  .popup.is-vx-work2 {
+    left: 20%;
+    top: 35%;
+  }
+
+  .popup.is-vx-work3 {
+    left: 20%;
+    top: 65%;
+  }
+
+  .popup.is-work-ethics {
+    left: auto;
+    display: none;
+    width: auto;
+  }
+
   .contact-wrapper {
     padding-right: 0.1rem;
     padding-left: 0.1rem;
@@ -1055,6 +1083,23 @@ a {
 
   .contactrowwrapper-message {
     min-width: 260px;
+  }
+
+  .portfolioinnerwrapp {
+    min-height: 550px;
+    padding-left: 0.4rem;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .portfoliotext {
+    margin-bottom: 20px;
+  }
+
+  .vxpopupwrapper {
+    display: none;
   }
 }
 

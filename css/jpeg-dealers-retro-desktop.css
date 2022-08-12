@@ -284,6 +284,10 @@ a {
   top: auto;
   display: none;
   width: 35rem;
+  background-color: transparent;
+  background-image: url('../images/white-crinkled-paper-texture_.webp');
+  background-position: 0px 0px;
+  background-size: auto;
 }
 
 .popup-top-bar {
@@ -843,19 +847,20 @@ a {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
   border: 1px solid #000;
-  background-color: #ececec;
+  background-color: transparent;
 }
 
 .paragraphwethics {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-family: Pressstart2p, sans-serif;
   color: #005249;
   font-size: 0.5rem;

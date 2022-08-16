@@ -179,15 +179,15 @@ a {
 
 .popup {
   position: absolute;
-  left: 20%;
-  top: 10%;
+  left: 26%;
+  top: 3%;
   right: auto;
   bottom: auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 40rem;
+  width: 35rem;
   height: auto;
   max-height: none;
   padding: 0.1rem;
@@ -223,9 +223,12 @@ a {
 
 .popup.is-contact {
   left: 45%;
-  top: 25%;
+  top: 33%;
   z-index: 25;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 500px;
   min-height: auto;
   min-width: auto;
@@ -263,8 +266,8 @@ a {
 }
 
 .popup.is-vx-work2 {
-  left: 45%;
-  top: 15%;
+  left: 20%;
+  top: 2%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -372,7 +375,8 @@ a {
 }
 
 .contact-wrapper {
-  padding: 0.2rem 1.7rem;
+  position: relative;
+  padding: 0.5rem 1.7rem 1rem;
   background-color: #d6d6d1;
 }
 
@@ -737,7 +741,7 @@ a {
 }
 
 .paragraph {
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   font-family: Pressstart2p, sans-serif;
   color: #005249;
   font-size: 0.5rem;
@@ -746,17 +750,21 @@ a {
 }
 
 .contactrowwrapper {
-  min-height: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 25px;
   min-width: 450px;
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   background-color: #fff;
 }
 
 .contactrowwrapper-message {
-  min-height: 200px;
+  min-height: 150px;
   min-width: 450px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   background-color: #fff;
 }
 
@@ -913,6 +921,87 @@ a {
 }
 
 .bold-text-4 {
+  color: #005249;
+}
+
+.button {
+  position: relative;
+  background-color: #fff;
+  color: #000;
+}
+
+.contactbuttonwrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-block-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 10px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.contactpopupwrapper {
+  position: relative;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.contactcontent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.contactbuttonswrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.buttoncontactgreen {
+  position: relative;
+  background-color: #fff;
   color: #005249;
 }
 

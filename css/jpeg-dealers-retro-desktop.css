@@ -856,8 +856,8 @@ a {
 .vxpopupwrapper {
   position: relative;
   display: none;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .image-2 {
@@ -981,8 +981,8 @@ a {
 .contactpopupwrapper {
   position: relative;
   display: none;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .contactcontent {
@@ -1029,8 +1029,8 @@ a {
 .referenceswrapper {
   position: relative;
   display: none;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .referencescontent {

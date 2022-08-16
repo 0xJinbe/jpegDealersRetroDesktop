@@ -235,9 +235,10 @@ a {
 }
 
 .popup.is-portfolio {
-  left: 35%;
+  left: 28%;
   top: 10%;
   display: none;
+  width: 45rem;
   background-color: #d6d6d1;
 }
 
@@ -794,9 +795,8 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  min-height: 350px;
-  padding-top: 1rem;
-  padding-left: 1rem;
+  min-height: auto;
+  padding: 1rem;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;

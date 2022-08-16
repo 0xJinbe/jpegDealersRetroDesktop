@@ -221,7 +221,7 @@ a {
   justify-content: flex-start;
 }
 
-.popup.is-contact {
+.popup.is-contact2 {
   left: 45%;
   top: 33%;
   z-index: 25;
@@ -301,6 +301,22 @@ a {
   background-image: url('../images/white-crinkled-paper-texture_.webp');
   background-position: 0px 0px;
   background-size: auto;
+}
+
+.popup.is-references1 {
+  top: 1%;
+}
+
+.popup.is-references2 {
+  top: 35%;
+}
+
+.popup.is-references3 {
+  top: 61%;
+}
+
+.popup.is-references2 {
+  top: 31%;
 }
 
 .popup-top-bar {
@@ -732,7 +748,8 @@ a {
 }
 
 .heading {
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   font-family: Pressstart2p, sans-serif;
   color: #005249;
   font-size: 0.7rem;
@@ -741,7 +758,7 @@ a {
 }
 
 .paragraph {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   font-family: Pressstart2p, sans-serif;
   color: #005249;
   font-size: 0.5rem;
@@ -835,8 +852,8 @@ a {
 .vxpopupwrapper {
   position: relative;
   display: none;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .image-2 {
@@ -1005,8 +1022,44 @@ a {
   color: #005249;
 }
 
+.referenceswrapper {
+  position: relative;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.referencescontent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  padding: 0.6rem 0.2rem;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.div-block-2 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.image-3 {
+  margin-right: 15px;
+}
+
+.image-4 {
+  max-width: 80%;
+}
+
 @media screen and (max-width: 991px) {
-  .popup.is-contact {
+  .popup.is-contact2 {
     left: 20%;
   }
 
@@ -1079,7 +1132,7 @@ a {
     width: auto;
   }
 
-  .popup.is-contact {
+  .popup.is-contact2 {
     left: 6%;
     top: 31%;
     right: auto;
@@ -1149,7 +1202,7 @@ a {
     display: none;
   }
 
-  .popup.is-contact {
+  .popup.is-contact2 {
     left: 1%;
     top: 1%;
     right: 1%;

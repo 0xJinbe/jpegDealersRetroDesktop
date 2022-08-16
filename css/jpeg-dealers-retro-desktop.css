@@ -123,8 +123,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   height: auto;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -145,9 +145,9 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 8rem;
+  width: 6rem;
   margin: 0rem 1rem;
-  padding: 0.25rem 0rem;
+  padding: 0rem;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -283,7 +283,7 @@ a {
 .popup.is-work-ethics {
   top: auto;
   display: none;
-  width: 35rem;
+  width: 30rem;
   background-color: transparent;
   background-image: url('../images/white-crinkled-paper-texture_.webp');
   background-position: 0px 0px;
@@ -816,7 +816,7 @@ a {
 }
 
 .image-2 {
-  max-width: 30%;
+  max-width: 25%;
 }
 
 .logowrapper {
@@ -825,8 +825,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -860,7 +860,7 @@ a {
 }
 
 .paragraphwethics {
-  margin-bottom: 8px;
+  margin-bottom: 5px;
   font-family: Pressstart2p, sans-serif;
   color: #005249;
   font-size: 0.5rem;

@@ -214,7 +214,7 @@ a {
   display: none;
   overflow: visible;
   width: 50rem;
-  height: 80vh;
+  height: 70vh;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -240,15 +240,6 @@ a {
   display: none;
   width: 45rem;
   background-color: #d6d6d1;
-}
-
-.popup.credit {
-  z-index: 150;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 25rem;
 }
 
 .popup.is-vx-work1 {
@@ -643,19 +634,6 @@ a {
   text-align: center;
 }
 
-.credit-content {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 2rem;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  background-color: #fff;
-}
-
 .social-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -727,33 +705,8 @@ a {
   line-height: 1.5;
 }
 
-.services-wrapper-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: scroll;
-  padding-right: 2.6rem;
-  padding-bottom: 1rem;
-  padding-left: 2.6rem;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  border: 1px solid #000;
-  background-color: #d6d6d1;
-}
-
 .heading {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 5px;
   font-family: Pressstart2p, sans-serif;
   color: #005249;
@@ -763,7 +716,7 @@ a {
 }
 
 .paragraph {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   font-family: Pressstart2p, sans-serif;
   color: #005249;
   font-size: 0.5rem;
@@ -841,10 +794,6 @@ a {
   -ms-flex-align: start;
   align-items: flex-start;
   background-color: transparent;
-}
-
-.div-block {
-  height: 100%;
 }
 
 .headingvxwork {
@@ -927,22 +876,6 @@ a {
 .textwrapper {
   overflow: visible;
   margin-bottom: 30px;
-}
-
-.bold-text {
-  color: #005249;
-}
-
-.bold-text-2 {
-  color: #005249;
-}
-
-.bold-text-3 {
-  color: #005249;
-}
-
-.bold-text-4 {
-  color: #005249;
 }
 
 .button {
@@ -1054,12 +987,42 @@ a {
   flex: 1;
 }
 
-.image-3 {
-  margin-right: 15px;
-}
-
 .image-4 {
   max-width: 80%;
+}
+
+.paragraphwithoutbottonmargin {
+  margin-bottom: 0px;
+  font-family: Pressstart2p, sans-serif;
+  color: #005249;
+  font-size: 0.5rem;
+  line-height: 1.3;
+  text-align: justify;
+}
+
+.services-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: scroll;
+  padding-right: 2.6rem;
+  padding-bottom: 1rem;
+  padding-left: 2.6rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border: 1px solid #000;
+  background-color: #d6d6d1;
 }
 
 @media screen and (max-width: 991px) {
@@ -1149,10 +1112,6 @@ a {
     width: auto;
   }
 
-  .popup.credit {
-    display: none;
-  }
-
   .start-menu-wrap {
     display: none;
   }
@@ -1225,12 +1184,6 @@ a {
     width: auto;
   }
 
-  .popup.credit {
-    left: 0%;
-    display: none;
-    width: auto;
-  }
-
   .popup.is-vx-work1 {
     top: 1%;
   }
@@ -1284,11 +1237,6 @@ a {
     padding-left: 5px;
   }
 
-  .services-wrapper-2 {
-    padding-right: 2.5rem;
-    padding-left: 2.5rem;
-  }
-
   .contactrowwrapper {
     width: 100%;
     min-width: auto;
@@ -1327,6 +1275,11 @@ a {
 
   .paragraphwethics {
     color: rgba(20, 20, 20, 0.85);
+  }
+
+  .services-wrapper {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
   }
 }
 

@@ -222,7 +222,7 @@ a {
 }
 
 .popup.is-contact2 {
-  left: 45%;
+  left: 51%;
   top: 33%;
   z-index: 25;
   display: -webkit-box;
@@ -251,7 +251,7 @@ a {
 }
 
 .popup.is-vx-work1 {
-  left: 20%;
+  left: 33%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -266,8 +266,8 @@ a {
 }
 
 .popup.is-vx-work2 {
-  left: 50%;
-  top: 2%;
+  left: 66%;
+  top: 13%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -281,8 +281,8 @@ a {
 }
 
 .popup.is-vx-work3 {
-  left: 25%;
-  top: 45%;
+  left: 42%;
+  top: 48%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -305,6 +305,10 @@ a {
 
 .popup.is-references1 {
   top: 1%;
+}
+
+.popup.is-contact1 {
+  left: 30%;
 }
 
 .popup.is-references2 {

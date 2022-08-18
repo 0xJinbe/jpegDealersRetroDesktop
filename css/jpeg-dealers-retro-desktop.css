@@ -282,7 +282,7 @@ a {
 }
 
 .popup.is-vx-work1 {
-  left: 33%;
+  left: 15%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -297,7 +297,7 @@ a {
 }
 
 .popup.is-vx-work2 {
-  left: 55%;
+  left: 45%;
   top: 13%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -312,7 +312,7 @@ a {
 }
 
 .popup.is-vx-work3 {
-  left: 42%;
+  left: 55%;
   top: 48%;
   display: -webkit-box;
   display: -webkit-flex;

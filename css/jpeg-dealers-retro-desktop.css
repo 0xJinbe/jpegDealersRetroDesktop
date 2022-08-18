@@ -360,7 +360,7 @@ a {
 
 .popup.is-vx-work4 {
   left: 20%;
-  top: 43%;
+  top: 45%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -876,10 +876,7 @@ a {
 
 .vxpopupwrapper {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100vw;
   height: 100vh;
 }

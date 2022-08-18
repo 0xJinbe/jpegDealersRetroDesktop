@@ -42,7 +42,10 @@ a {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  background-color: #fff;
+  background-color: hsla(0, 0%, 100%, 0);
+  background-image: url('../images/bg-ascii.png');
+  background-position: 50% 50%;
+  background-size: cover;
   font-family: Pressstart2p, sans-serif;
   font-size: 0.5rem;
   line-height: 1;
@@ -107,6 +110,7 @@ a {
   margin-top: 6px;
   margin-bottom: 6px;
   font-family: Pressstart2p, sans-serif;
+  color: #005249;
   font-size: 0.5rem;
   line-height: 3rem;
   text-transform: uppercase;

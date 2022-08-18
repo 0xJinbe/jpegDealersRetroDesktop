@@ -88,6 +88,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 2rem;
   padding: 0.3rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -106,48 +107,97 @@ a {
 
 .desktop-icon-wrapper.is-portfolio-icon {
   width: 8rem;
-  height: 8rem;
+  height: 6rem;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #141414;
   text-decoration: none;
 }
 
 .desktop-icon-wrapper.is-services-icon {
   width: 8rem;
-  height: 8rem;
+  height: 6rem;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .desktop-icon-wrapper.is-contact-icon {
   width: 8rem;
-  height: 8rem;
+  height: 6rem;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .desktop-icon-wrapper.is-team-icon {
   width: 8rem;
-  height: 8rem;
+  height: 6rem;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .desktop-icon-wrapper.is-references-icon {
   width: 8rem;
-  height: 8rem;
+  height: 6rem;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .desktop-icon-wrapper.is-vx-work-icon {
   width: 8rem;
-  height: 8rem;
+  height: 6rem;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .desktop-icon-wrapper.is-work-ethics-icon {
   width: 8rem;
-  height: 8rem;
+  height: 6rem;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .icons-heading {
-  margin-top: 6px;
-  margin-bottom: 6px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: Pressstart2p, sans-serif;
   color: #005249;
   font-size: 0.5rem;
-  line-height: 3rem;
+  line-height: 1;
   text-transform: uppercase;
 }
 
@@ -178,6 +228,14 @@ a {
 
 .desktop-icons {
   width: 3rem;
+}
+
+.desktop-icons.iconbigger {
+  width: 4.5rem;
+}
+
+.desktop-icons.biggericon {
+  width: 4rem;
 }
 
 .menu-button {

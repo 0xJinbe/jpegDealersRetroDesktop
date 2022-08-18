@@ -43,7 +43,7 @@ a {
   -ms-flex-align: start;
   align-items: flex-start;
   background-color: hsla(0, 0%, 100%, 0);
-  background-image: url('../images/newBGCentered.png');
+  background-image: url('../images/newBGascii.png');
   background-position: 50% 50%;
   background-size: cover;
   font-family: Pressstart2p, sans-serif;
@@ -195,7 +195,7 @@ a {
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: Pressstart2p, sans-serif;
-  color: #005249;
+  color: #d6d6d1;
   font-size: 0.5rem;
   line-height: 1;
   text-transform: uppercase;
@@ -1264,6 +1264,12 @@ a {
 }
 
 @media screen and (max-width: 767px) {
+  .desktop-wrapper {
+    background-image: url('../images/mobile-bg.png');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+
   .desktop-icons-wrapper {
     width: 50%;
   }
@@ -1323,7 +1329,7 @@ a {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    padding-top: 0rem;
+    padding-top: 0.6rem;
     padding-left: 0.6rem;
   }
 

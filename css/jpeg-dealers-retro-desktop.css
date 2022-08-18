@@ -44,7 +44,7 @@ a {
   align-items: flex-start;
   background-color: hsla(0, 0%, 100%, 0);
   background-image: url('../images/bg-ascii.png');
-  background-position: 50% 0%;
+  background-position: 50% 50%;
   background-size: cover;
   font-family: Pressstart2p, sans-serif;
   font-size: 0.5rem;
@@ -520,7 +520,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: auto;
-  margin-right: 3rem;
+  margin-right: 2rem;
   padding-right: 0rem;
   -webkit-box-align: center;
   -webkit-align-items: center;

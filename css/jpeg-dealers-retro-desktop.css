@@ -44,7 +44,7 @@ a {
   align-items: flex-start;
   background-color: hsla(0, 0%, 100%, 0);
   background-image: url('../images/bg-ascii.png');
-  background-position: 50% 50%;
+  background-position: 50% 0%;
   background-size: cover;
   font-family: Pressstart2p, sans-serif;
   font-size: 0.5rem;
@@ -64,7 +64,7 @@ a {
   display: flex;
   width: auto;
   height: 90vh;
-  padding-top: 2.8rem;
+  padding-top: 2.5rem;
   padding-left: 2rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -78,6 +78,9 @@ a {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
 }
 
 .desktop-icon-wrapper {
@@ -103,32 +106,39 @@ a {
 
 .desktop-icon-wrapper.is-portfolio-icon {
   width: 10rem;
+  height: 8rem;
   color: #141414;
   text-decoration: none;
 }
 
 .desktop-icon-wrapper.is-services-icon {
   width: 10rem;
+  height: 8rem;
 }
 
 .desktop-icon-wrapper.is-contact-icon {
   width: 10rem;
+  height: 8rem;
 }
 
 .desktop-icon-wrapper.is-team-icon {
   width: 10rem;
+  height: 8rem;
 }
 
 .desktop-icon-wrapper.is-references-icon {
   width: 10rem;
+  height: 8rem;
 }
 
 .desktop-icon-wrapper.is-vx-work-icon {
   width: 10rem;
+  height: 8rem;
 }
 
 .desktop-icon-wrapper.is-work-ethics-icon {
   width: 10rem;
+  height: 8rem;
 }
 
 .icons-heading {

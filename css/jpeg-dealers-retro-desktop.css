@@ -284,15 +284,16 @@ a {
 }
 
 .popup.is-work-ethics {
+  left: 25%;
   top: auto;
   display: none;
   overflow: visible;
   width: 35rem;
-  height: 90vh;
+  height: auto;
   background-color: transparent;
-  background-image: url('../images/white-crinkled-paper-texture_.webp');
+  background-image: url('../images/bg-ethics.png');
   background-position: 0px 0px;
-  background-size: auto;
+  background-size: cover;
 }
 
 .popup.is-references1 {
@@ -812,8 +813,8 @@ a {
   height: 100vh;
 }
 
-.image-2 {
-  max-width: 35%;
+.workethicslogo {
+  max-width: 45%;
 }
 
 .logowrapper {
@@ -874,6 +875,10 @@ a {
 .paragraphwethics.signname {
   margin-bottom: 0px;
   font-size: 0.7rem;
+}
+
+.paragraphwethics.endparagraph {
+  margin-bottom: 20px;
 }
 
 .textwrapper {

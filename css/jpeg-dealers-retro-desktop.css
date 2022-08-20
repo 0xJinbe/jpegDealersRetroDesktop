@@ -230,10 +230,6 @@ a {
   width: 3rem;
 }
 
-.desktop-icons.iconbigger {
-  width: 4.5rem;
-}
-
 .desktop-icons.biggericon {
   width: 4rem;
 }
@@ -711,11 +707,6 @@ a {
   background-color: #141414;
 }
 
-.clock-icon {
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-}
-
 .side-black-left {
   position: absolute;
   left: -50%;
@@ -828,8 +819,9 @@ a {
 }
 
 .text-block-landing {
-  color: #00ff41;
-  font-size: 0.5rem;
+  width: 100%;
+  color: #fff;
+  font-size: 0.7rem;
   line-height: 1.5;
 }
 
@@ -924,27 +916,6 @@ a {
   align-items: flex-start;
   border: 1px solid #000;
   background-color: transparent;
-}
-
-.vxworkcontent.vx1 {
-  border: 1px solid #000;
-  background-image: none;
-}
-
-.vxworkcontent.vx2 {
-  border: 1px solid #000;
-  background-image: none;
-}
-
-.vxworkcontent.vx3 {
-  border: 1px solid #000;
-  background-image: none;
-}
-
-.headingvxwork {
-  margin-top: 0px;
-  color: #005249;
-  font-size: 0.7rem;
 }
 
 .vxpopupwrapper {
@@ -1170,13 +1141,6 @@ a {
   background-color: #d6d6d1;
 }
 
-.image-5 {
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-}
-
 .vxcontentwrapper {
   width: 100%;
   height: 100%;
@@ -1206,6 +1170,16 @@ a {
   background-image: url('../images/vx3.webp');
   background-position: 50% 50%;
   background-size: cover;
+}
+
+.typewritterwrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50vw;
+  max-width: none;
+  text-align: left;
 }
 
 @media screen and (max-width: 991px) {

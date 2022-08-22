@@ -333,7 +333,10 @@ a {
 .popup.is-portfolio {
   left: 28%;
   top: 10%;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 45rem;
   background-color: #d6d6d1;
 }

@@ -304,10 +304,7 @@ a {
   left: 9%;
   top: 3%;
   z-index: 20;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   overflow: visible;
   width: 50rem;
   height: 70vh;
@@ -333,10 +330,7 @@ a {
 .popup.is-portfolio {
   left: 28%;
   top: 10%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 45rem;
   background-color: #d6d6d1;
 }
@@ -847,7 +841,7 @@ a {
   color: #005249;
   font-size: 0.5rem;
   line-height: 1.3;
-  text-align: left;
+  text-align: center;
 }
 
 .contactrowwrapper {
@@ -1037,10 +1031,7 @@ a {
 
 .contactpopupwrapper {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100vw;
   height: 100vh;
 }

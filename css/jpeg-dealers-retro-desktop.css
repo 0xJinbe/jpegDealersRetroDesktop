@@ -273,7 +273,7 @@ a {
 
 .popup {
   position: absolute;
-  left: 26%;
+  left: 51%;
   top: 3%;
   right: auto;
   bottom: auto;
@@ -313,19 +313,6 @@ a {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-}
-
-.popup.is-contact2 {
-  left: 45%;
-  top: 30%;
-  z-index: 25;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: auto;
-  min-height: auto;
-  min-width: auto;
 }
 
 .popup.is-portfolio {
@@ -399,8 +386,13 @@ a {
 }
 
 .popup.is-contact {
-  left: 30%;
+  left: 25%;
   top: 5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d6d6d1;
 }
 
 .popup.is-references2 {
@@ -497,25 +489,6 @@ a {
 
 .icon {
   margin-right: 0.6rem;
-}
-
-.contact-wrapper {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 2rem;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #d6d6d1;
 }
 
 .start-menu-wrap {
@@ -650,7 +623,10 @@ a {
 .pre-looader {
   position: absolute;
   z-index: 200;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 100vw;
   height: 100vh;
   -webkit-box-orient: vertical;
@@ -803,11 +779,12 @@ a {
 
 .lowleftwrapper {
   position: absolute;
-  left: 0%;
+  left: 0px;
   top: auto;
   right: auto;
-  bottom: 0%;
+  bottom: 0px;
   width: auto;
+  height: 60vh;
   max-height: 100vh;
   max-width: 100vw;
   padding-bottom: 30px;
@@ -815,14 +792,15 @@ a {
 }
 
 .image {
-  max-width: 20%;
+  max-width: 100%;
   margin-bottom: 2rem;
   border-radius: 0px;
   opacity: 1;
 }
 
-.text-block-landing {
-  width: 100%;
+.text-block-landingp1 {
+  width: 85ch;
+  margin-bottom: 10px;
   color: #00ff41;
   font-size: 0.7rem;
   line-height: 1.5;
@@ -845,25 +823,6 @@ a {
   font-size: 0.5rem;
   line-height: 1.3;
   text-align: center;
-}
-
-.contactrowwrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 25px;
-  min-width: 450px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  background-color: #fff;
-}
-
-.contactrowwrapper-message {
-  min-height: 150px;
-  min-width: 450px;
-  margin-bottom: 15px;
-  background-color: #fff;
 }
 
 .portfolioinnerwrapp {
@@ -998,46 +957,6 @@ a {
 .textwrapper {
   overflow: visible;
   margin-bottom: 10px;
-}
-
-.button {
-  position: relative;
-  background-color: #fff;
-  color: #000;
-}
-
-.contactbuttonwrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.text-block-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 10px;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.contactpopupwrapper {
-  position: relative;
-  display: none;
-  width: 100vw;
-  height: 100vh;
 }
 
 .contactcontent {
@@ -1177,21 +1096,169 @@ a {
   background-size: cover;
 }
 
-.typewritterwrapper {
+.text-block-landingp2 {
+  width: 100ch;
+  margin-bottom: 10px;
+  color: #00ff41;
+  font-size: 0.7rem;
+  line-height: 1.5;
+}
+
+.text-block-landingp3 {
+  width: 36ch;
+  margin-bottom: 10px;
+  color: #00ff41;
+  font-size: 0.7rem;
+  line-height: 1.5;
+}
+
+.popupparent {
+  position: absolute;
+  left: 51%;
+  top: 3%;
+  right: auto;
+  bottom: auto;
+  display: none;
+  width: 35rem;
+  height: auto;
+  max-height: none;
+  padding: 0.1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  border: 1px solid #000;
+  background-color: transparent;
+}
+
+.popupparent.is-services {
+  left: 23%;
+  top: 3%;
+  z-index: 0;
+  display: none;
+  overflow: visible;
+  width: 50rem;
+  height: 70vh;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.popupparent.is-portfolio {
+  left: 28%;
+  top: 10%;
+  z-index: 0;
+  display: none;
+  width: 45rem;
+  background-color: #d6d6d1;
+}
+
+.popupparent.is-vx-work1 {
+  left: 19%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 50vw;
-  max-width: none;
-  text-align: left;
+  width: 17rem;
+  height: 17rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  background-color: #d6d6d1;
+}
+
+.popupparent.is-vx-work2 {
+  left: 55%;
+  top: 7%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 17rem;
+  height: 17rem;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.popupparent.is-vx-work3 {
+  left: 65%;
+  top: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 17rem;
+  height: 17rem;
+}
+
+.popupparent.is-work-ethics {
+  left: 25%;
+  top: auto;
+  z-index: 0;
+  display: none;
+  overflow: visible;
+  width: 33rem;
+  height: auto;
+  max-height: 90vh;
+  background-color: transparent;
+  background-image: url('../images/bg-ethics.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.popupparent.is-references1 {
+  left: 20%;
+  top: 1%;
+}
+
+.popupparent.is-contact {
+  left: 25%;
+  top: 5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d6d6d1;
+}
+
+.popupparent.is-references2 {
+  top: 35%;
+}
+
+.popupparent.is-references3 {
+  left: 20%;
+  top: 61%;
+}
+
+.popupparent.is-references2 {
+  left: 20%;
+  top: 31%;
+}
+
+.popupparent.is-vx-work4 {
+  left: 20%;
+  top: 45%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 17rem;
+  height: 17rem;
 }
 
 @media screen and (max-width: 991px) {
-  .popup.is-contact2 {
-    left: 20%;
-  }
-
   .popup.is-portfolio {
     left: 10%;
   }
@@ -1233,12 +1300,24 @@ a {
     padding-left: 10px;
   }
 
-  .text-block-landing {
+  .text-block-landingp1 {
     font-size: 0.5rem;
   }
 
   .vxpopupwrapper {
     display: none;
+  }
+
+  .text-block-landingp2 {
+    font-size: 0.5rem;
+  }
+
+  .text-block-landingp3 {
+    font-size: 0.5rem;
+  }
+
+  .popupparent.is-portfolio {
+    left: 10%;
   }
 }
 
@@ -1267,14 +1346,6 @@ a {
     width: auto;
   }
 
-  .popup.is-contact2 {
-    left: 6%;
-    top: 31%;
-    right: auto;
-    bottom: auto;
-    display: none;
-  }
-
   .popup.is-portfolio {
     left: auto;
     width: auto;
@@ -1286,6 +1357,16 @@ a {
 
   .vxpopupwrapper {
     display: none;
+  }
+
+  .popupparent.is-services {
+    display: none;
+    width: auto;
+  }
+
+  .popupparent.is-portfolio {
+    left: auto;
+    width: auto;
   }
 }
 
@@ -1333,15 +1414,6 @@ a {
     display: none;
   }
 
-  .popup.is-contact2 {
-    left: 1%;
-    top: 1%;
-    right: 1%;
-    z-index: 120;
-    display: none;
-    width: auto;
-  }
-
   .popup.is-portfolio {
     left: 1%;
     top: 1%;
@@ -1380,12 +1452,6 @@ a {
     top: 60%;
   }
 
-  .contact-wrapper {
-    width: auto;
-    padding-right: 0.1rem;
-    padding-left: 0.1rem;
-  }
-
   .start-menu-wrap {
     position: absolute;
     bottom: 101%;
@@ -1408,15 +1474,6 @@ a {
   .lowleftwrapper {
     padding-bottom: 5px;
     padding-left: 5px;
-  }
-
-  .contactrowwrapper {
-    width: 100%;
-    min-width: auto;
-  }
-
-  .contactrowwrapper-message {
-    min-width: 260px;
   }
 
   .portfolioinnerwrapp {
@@ -1453,6 +1510,52 @@ a {
   .services-wrapper {
     padding-right: 2.5rem;
     padding-left: 2.5rem;
+  }
+
+  .popupparent.is-services {
+    left: 1%;
+    top: 1%;
+    right: 1%;
+    z-index: 180;
+    display: none;
+  }
+
+  .popupparent.is-portfolio {
+    left: 1%;
+    top: 1%;
+    right: 1%;
+    bottom: auto;
+    z-index: 160;
+    display: none;
+    width: auto;
+  }
+
+  .popupparent.is-vx-work1 {
+    top: 1%;
+  }
+
+  .popupparent.is-vx-work2 {
+    left: 20%;
+    top: 30%;
+  }
+
+  .popupparent.is-vx-work3 {
+    left: 20%;
+    top: 60%;
+  }
+
+  .popupparent.is-work-ethics {
+    left: 1%;
+    top: 1%;
+    right: 1%;
+    z-index: 195;
+    display: none;
+    width: auto;
+  }
+
+  .popupparent.is-vx-work4 {
+    left: 20%;
+    top: 60%;
   }
 }
 

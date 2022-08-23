@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Tue Aug 23 2022 17:29:11 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Tue Aug 23 2022 17:35:37 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6303b7473ed24c0b1205fea7" data-wf-site="62f1b5c73d1cea6afc3c38ee">
 <head>
   <meta charset="utf-8">
@@ -410,7 +410,7 @@
       var content2 = 'OK PMU Rom Version: 9303 NVMM Rom Version: 4.092.89 Initializing USB Controllers. Done.128MB OK USB Device(s)L 1 Keyboard, 1 Mouse, 1 Hub, 1 Storage Device Auto-detecting USB Mass Storage Devices...Device #01: USB 2.0 FlashDisk Speed 01 USB mass storage devices found and configured.';
       var ele2 = '<span>' + content2.split('').join('</span><span>') + '</span>';
       $(ele2).hide().appendTo($("#p2")).each(function(i) {
-        $(this).delay(5 * i).css({
+        $(this).delay(15 * i).css({
           display: 'inline',
           opacity: 0,
         }).animate({
@@ -429,7 +429,7 @@
         }, 100);
       });
       //part 4
-      var content4 = 'Connecting to Worlwide web 3 Lightning Node ... Online. Ethereum Sharding... 0 to 100% Cardano... No Smart contracts found. Connecting to jpegdealers.com terminal. Success...';
+      var content4 = 'Connecting to Worlwide web 3 Lightning Node ... Online. Ethereum Sharding... 0 to 100% Cardano... No Smart contracts found. Connecting to JPEGDEALERS.COM terminal. Success...';
       var ele4 = '<span>' + content4.split('').join('</span><span>') + '</span>';
       $(ele4).hide().appendTo($("#p4")).each(function(i) {
         $(this).delay(45 * i).css({

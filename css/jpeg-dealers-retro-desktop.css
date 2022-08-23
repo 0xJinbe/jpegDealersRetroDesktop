@@ -1036,7 +1036,7 @@ a {
   color: #005249;
   font-size: 0.5rem;
   line-height: 1.3;
-  text-align: justify;
+  text-align: left;
 }
 
 .services-wrapper {
@@ -1281,6 +1281,15 @@ a {
   color: #00ff41;
   font-size: 0.7rem;
   line-height: 1.5;
+}
+
+.paragraph-services {
+  margin-bottom: 2rem;
+  font-family: Pressstart2p, sans-serif;
+  color: #005249;
+  font-size: 0.5rem;
+  line-height: 1.3;
+  text-align: left;
 }
 
 @media screen and (max-width: 991px) {

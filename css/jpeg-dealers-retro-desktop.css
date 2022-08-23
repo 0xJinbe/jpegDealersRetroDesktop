@@ -796,8 +796,8 @@ a {
 }
 
 .text-block-landingp1 {
-  width: 60ch;
-  margin-bottom: 10px;
+  width: 65ch;
+  margin-bottom: 15px;
   color: #00ff41;
   font-size: 0.7rem;
   line-height: 1.5;
@@ -1095,15 +1095,15 @@ a {
 
 .text-block-landingp2 {
   width: 85ch;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   color: #00ff41;
   font-size: 0.7rem;
   line-height: 1.5;
 }
 
 .text-block-landingp3 {
-  width: 36ch;
-  margin-bottom: 10px;
+  width: 45ch;
+  margin-bottom: 15px;
   color: #00ff41;
   font-size: 0.7rem;
   line-height: 1.5;
@@ -1268,8 +1268,16 @@ a {
 }
 
 .text-block-landingp4 {
-  width: 25ch;
-  margin-bottom: 10px;
+  width: 35ch;
+  margin-bottom: 15px;
+  color: #00ff41;
+  font-size: 0.7rem;
+  line-height: 1.5;
+}
+
+.text-block-landingp5 {
+  width: 65ch;
+  margin-bottom: 2rem;
   color: #00ff41;
   font-size: 0.7rem;
   line-height: 1.5;
@@ -1338,6 +1346,10 @@ a {
   }
 
   .text-block-landingp4 {
+    font-size: 0.5rem;
+  }
+
+  .text-block-landingp5 {
     font-size: 0.5rem;
   }
 }

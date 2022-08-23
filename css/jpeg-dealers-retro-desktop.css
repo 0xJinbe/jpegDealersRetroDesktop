@@ -623,10 +623,7 @@ a {
 .pre-looader {
   position: absolute;
   z-index: 200;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100vw;
   height: 100vh;
   -webkit-box-orient: vertical;
@@ -1256,6 +1253,18 @@ a {
   display: flex;
   width: 17rem;
   height: 17rem;
+}
+
+.soundbutton {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 1%;
+  bottom: 10%;
+}
+
+.soundonbutton {
+  width: 50%;
 }
 
 @media screen and (max-width: 991px) {

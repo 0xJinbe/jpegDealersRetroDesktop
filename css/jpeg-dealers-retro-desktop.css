@@ -796,7 +796,7 @@ a {
 }
 
 .text-block-landingp1 {
-  width: 85ch;
+  width: 60ch;
   margin-bottom: 10px;
   color: #00ff41;
   font-size: 0.7rem;
@@ -1094,7 +1094,7 @@ a {
 }
 
 .text-block-landingp2 {
-  width: 100ch;
+  width: 85ch;
   margin-bottom: 10px;
   color: #00ff41;
   font-size: 0.7rem;
@@ -1267,6 +1267,14 @@ a {
   width: 50%;
 }
 
+.text-block-landingp4 {
+  width: 25ch;
+  margin-bottom: 10px;
+  color: #00ff41;
+  font-size: 0.7rem;
+  line-height: 1.5;
+}
+
 @media screen and (max-width: 991px) {
   .popup.is-portfolio {
     left: 10%;
@@ -1327,6 +1335,10 @@ a {
 
   .popupparent.is-portfolio {
     left: 10%;
+  }
+
+  .text-block-landingp4 {
+    font-size: 0.5rem;
   }
 }
 

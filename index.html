@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Tue Aug 23 2022 15:01:15 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Tue Aug 23 2022 17:29:11 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6303b7473ed24c0b1205fea7" data-wf-site="62f1b5c73d1cea6afc3c38ee">
 <head>
   <meta charset="utf-8">
@@ -35,9 +35,10 @@
   </div>
   <div data-w-id="9d9d6e0e-6da8-5751-846f-c1aa65280f16" style="opacity:1;display:flex" class="pre-looader">
     <div class="lowleftwrapper"><img src="images/jpegdealers-green.png" loading="lazy" alt="" class="image">
-      <div class="text-block-landingp1"><strong>QBIOS (C) 1982 Motherboard, Inc.BIOS Date 22/12/1982 15:43:29 <br>Ver: 08.00.15CPU: Intel(R) CPU 330 @ 40 MHzSpeed: 40MHzThis <br>VCA/PCI Bios is released under the GNU LGPL Press F11 for FULLSCREEN<br>Memory Clock: 63MHz, Tcl:7 Trcd: 4 Trp:8 Tras:20 (2T Timing) 8 bit <br>Memory Test: <br><br>2520 0K<br><br>OK PMU Rom Version: 9303NVMM Rom Version: 4.092.89 Initializing<br>USB Controllers. Done.128MB OK <br>USB Device(s)L 1 Keyboard, 1 Mouse, 1 Hub, 1 Storage Device<br>Auto-detecting USB Mass Storage Devices...<br>Device #01: USB 2.0 FlashDisk Speed01 USB mass storage devices found and configured.</strong></div>
+      <div id="p1" class="text-block-landingp1"><strong>‍<br><br>‍</strong></div>
       <div id="p2" class="text-block-landingp2"></div>
       <div id="p3" class="text-block-landingp3"></div>
+      <div id="p4" class="text-block-landingp4"></div>
     </div>
   </div>
   <div data-w-id="aeb5d509-3fdb-6d0a-acc9-3de8071b906d" class="desktop-wrapper">
@@ -394,12 +395,22 @@
       }
       setInterval('clock()', 1000);
       //bootloader text function
-      //part1 is static
+      //part1
+      var content1 = 'QBIOS (C) 1982 Motherboard, Inc.BIOS Date 22/12/1982 15:43:29 Ver: 08.00.15CPU: Intel(R) CPU 330 @ 40 MHz Speed: 40 MHz This VCA/PCI Bios is released under the GNU LGPL Press F11 for FULLSCREEN Memory Clock: 63 MHz, Tcl: 7 Trcd: 4 Trp: 8 Tras:20 (2T Timing) 8 bit   Memory Test: 2520 0K';
+      var ele1 = '<span>' + content1.split('').join('</span><span>') + '</span>';
+      $(ele1).hide().appendTo($("#p1")).each(function(i) {
+        $(this).delay(1 * i).css({
+          display: 'inline',
+          opacity: 0,
+        }).animate({
+          opacity: 1
+        }, 100);
+      });
       //part2
-      var content2 = '(C) Motherboard, Inc.64-0100-00001-001011111-092909-79297-1AR0V003-Y2UCBootingfrom Hard Disk...';
+      var content2 = 'OK PMU Rom Version: 9303 NVMM Rom Version: 4.092.89 Initializing USB Controllers. Done.128MB OK USB Device(s)L 1 Keyboard, 1 Mouse, 1 Hub, 1 Storage Device Auto-detecting USB Mass Storage Devices...Device #01: USB 2.0 FlashDisk Speed 01 USB mass storage devices found and configured.';
       var ele2 = '<span>' + content2.split('').join('</span><span>') + '</span>';
       $(ele2).hide().appendTo($("#p2")).each(function(i) {
-        $(this).delay(20 * i).css({
+        $(this).delay(5 * i).css({
           display: 'inline',
           opacity: 0,
         }).animate({
@@ -407,10 +418,21 @@
         }, 100);
       });
       //part3
-      var content3 = 'Connecting to Worlwide web 3 Lightning Node ... Online. Ethereum Sharding... 0 to 100% Cardano... No Smart contracts found. Connecting to jpegdealers.com terminal. Sucess...';
+      var content3 = '(C) Motherboard, Inc.64-0100-00001-001011111-092909-79297-1AR0 V003-Y2UC Booting from Hard Disk...';
       var ele3 = '<span>' + content3.split('').join('</span><span>') + '</span>';
       $(ele3).hide().appendTo($("#p3")).each(function(i) {
         $(this).delay(40 * i).css({
+          display: 'inline',
+          opacity: 0,
+        }).animate({
+          opacity: 1
+        }, 100);
+      });
+      //part 4
+      var content4 = 'Connecting to Worlwide web 3 Lightning Node ... Online. Ethereum Sharding... 0 to 100% Cardano... No Smart contracts found. Connecting to jpegdealers.com terminal. Success...';
+      var ele4 = '<span>' + content4.split('').join('</span><span>') + '</span>';
+      $(ele4).hide().appendTo($("#p4")).each(function(i) {
+        $(this).delay(45 * i).css({
           display: 'inline',
           opacity: 0,
         }).animate({

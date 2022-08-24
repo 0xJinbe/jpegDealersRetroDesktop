@@ -1175,7 +1175,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   overflow: scroll;
-  width: 50vw;
+  width: 50rem;
   height: 85vh;
   padding: 2rem;
   -webkit-box-orient: vertical;
@@ -1204,6 +1204,7 @@ a {
 }
 
 .paragraphteam {
+  width: auto;
   margin-bottom: 0rem;
   font-family: Pressstart2p, sans-serif;
   color: #005249;
@@ -1215,7 +1216,7 @@ a {
 .gridteam {
   display: -ms-grid;
   display: grid;
-  width: 100%;
+  width: 45rem;
   height: 100%;
   margin: 2rem;
   grid-auto-columns: 1fr;

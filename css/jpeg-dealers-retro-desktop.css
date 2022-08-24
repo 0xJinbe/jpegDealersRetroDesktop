@@ -1129,7 +1129,7 @@ a {
   width: 100vw;
   height: 100vh;
   max-height: none;
-  padding: 0.1rem;
+  padding: 0rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1142,7 +1142,7 @@ a {
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  border: 1px solid #000;
+  border: 0px none #000;
   background-color: transparent;
 }
 

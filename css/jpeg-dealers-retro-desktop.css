@@ -420,6 +420,12 @@ a {
   height: 17rem;
 }
 
+.popup.is-team {
+  left: 24%;
+  display: none;
+  width: 50rem;
+}
+
 .popup-top-bar {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1315,6 +1321,38 @@ a {
   text-align: left;
 }
 
+.teamwrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: scroll;
+  padding: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border: 1px solid #000;
+  background-color: #d6d6d1;
+}
+
+.paragraphteam {
+  margin-bottom: 2rem;
+  font-family: Pressstart2p, sans-serif;
+  color: #005249;
+  font-size: 0.5rem;
+  line-height: 1.3;
+  text-align: left;
+}
+
 @media screen and (max-width: 991px) {
   .popup.is-portfolio {
     left: 10%;
@@ -1621,6 +1659,11 @@ a {
   .popupparent.is-vx-work4 {
     left: 20%;
     top: 60%;
+  }
+
+  .teamwrapper {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
   }
 }
 

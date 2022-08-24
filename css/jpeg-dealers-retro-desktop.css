@@ -273,15 +273,12 @@ a {
 
 .popup {
   position: absolute;
-  left: 51%;
-  top: 3%;
+  left: 20%;
+  top: 10%;
   right: auto;
   bottom: auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 35rem;
+  display: none;
+  width: 40rem;
   height: auto;
   max-height: none;
   padding: 0.1rem;
@@ -324,23 +321,8 @@ a {
   background-color: #d6d6d1;
 }
 
-.popup.is-vx-work1 {
-  left: 19%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 17rem;
-  height: 17rem;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  background-color: #d6d6d1;
-}
-
 .popup.is-vx-work2 {
-  left: 55%;
+  left: 153%;
   top: 7%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -356,7 +338,7 @@ a {
 
 .popup.is-vx-work3 {
   left: 65%;
-  top: 50%;
+  top: 112%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -386,12 +368,9 @@ a {
 }
 
 .popup.is-contact {
-  left: 15%;
-  top: 5%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  left: 31%;
+  top: 21%;
+  display: none;
   background-color: #d6d6d1;
 }
 
@@ -410,12 +389,26 @@ a {
 }
 
 .popup.is-vx-work4 {
-  left: 20%;
-  top: 45%;
+  left: 184%;
+  top: 139%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 17rem;
+  height: 17rem;
+}
+
+.popup.is-team {
+  left: 26%;
+  top: 5%;
+  display: none;
+  width: 50rem;
+}
+
+.popup.vxwork1-1 {
+  left: 23%;
+  display: none;
   width: 17rem;
   height: 17rem;
 }
@@ -879,14 +872,9 @@ a {
   align-items: flex-start;
   border: 1px solid #000;
   background-color: transparent;
-}
-
-.vxpopupwrapper {
-  position: relative;
-  z-index: 0;
-  display: none;
-  width: 100vw;
-  height: 100vh;
+  background-image: url('../images/vx1.webp');
+  background-position: 0px 0px;
+  background-size: auto;
 }
 
 .workethicslogo {
@@ -1071,9 +1059,9 @@ a {
   height: 100%;
   margin: 10px 15px 15px;
   padding: 0px;
-  background-image: url('../images/vx4.webp');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 0px 0px;
+  background-size: auto;
 }
 
 .vxcontentwrapper.vx1 {
@@ -1097,6 +1085,12 @@ a {
   background-size: cover;
 }
 
+.vxcontentwrapper.vx4 {
+  background-image: url('../images/vx4.webp');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
 .text-block-landingp2 {
   width: 85ch;
   margin-bottom: 15px;
@@ -1111,152 +1105,6 @@ a {
   color: #00ff41;
   font-size: 0.7rem;
   line-height: 1.5;
-}
-
-.popupparent {
-  position: absolute;
-  left: 51%;
-  top: 3%;
-  right: auto;
-  bottom: auto;
-  display: none;
-  width: 35rem;
-  height: auto;
-  max-height: none;
-  padding: 0.1rem;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  border: 1px solid #000;
-  background-color: transparent;
-}
-
-.popupparent.is-services {
-  left: 23%;
-  top: 3%;
-  z-index: 0;
-  display: none;
-  overflow: visible;
-  width: 50rem;
-  height: 70vh;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-}
-
-.popupparent.is-portfolio {
-  left: 28%;
-  top: 10%;
-  z-index: 0;
-  display: none;
-  width: 45rem;
-  background-color: #d6d6d1;
-}
-
-.popupparent.is-vx-work1 {
-  left: 19%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 17rem;
-  height: 17rem;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  background-color: #d6d6d1;
-}
-
-.popupparent.is-vx-work2 {
-  left: 55%;
-  top: 7%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 17rem;
-  height: 17rem;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-}
-
-.popupparent.is-vx-work3 {
-  left: 65%;
-  top: 50%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 17rem;
-  height: 17rem;
-}
-
-.popupparent.is-work-ethics {
-  left: 25%;
-  top: auto;
-  z-index: 0;
-  display: none;
-  overflow: visible;
-  width: 33rem;
-  height: auto;
-  max-height: 90vh;
-  background-color: transparent;
-  background-image: url('../images/bg-ethics.png');
-  background-position: 0px 0px;
-  background-size: cover;
-}
-
-.popupparent.is-references1 {
-  left: 20%;
-  top: 1%;
-}
-
-.popupparent.is-contact {
-  left: 25%;
-  top: 5%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #d6d6d1;
-}
-
-.popupparent.is-references2 {
-  top: 35%;
-}
-
-.popupparent.is-references3 {
-  left: 20%;
-  top: 61%;
-}
-
-.popupparent.is-references2 {
-  left: 20%;
-  top: 31%;
-}
-
-.popupparent.is-vx-work4 {
-  left: 20%;
-  top: 45%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 17rem;
-  height: 17rem;
 }
 
 .soundbutton {
@@ -1315,6 +1163,38 @@ a {
   text-align: left;
 }
 
+.teamwrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: scroll;
+  padding: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border: 1px solid #000;
+  background-color: #d6d6d1;
+}
+
+.popup-button-2 {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+  background-color: #ececec;
+  box-shadow: -2px -2px 0 0 #fff, 2px 2px 0 0 #a7a7a7;
+}
+
 @media screen and (max-width: 991px) {
   .popup.is-portfolio {
     left: 10%;
@@ -1361,20 +1241,12 @@ a {
     font-size: 0.5rem;
   }
 
-  .vxpopupwrapper {
-    display: none;
-  }
-
   .text-block-landingp2 {
     font-size: 0.5rem;
   }
 
   .text-block-landingp3 {
     font-size: 0.5rem;
-  }
-
-  .popupparent.is-portfolio {
-    left: 10%;
   }
 
   .text-block-landingp4 {
@@ -1418,20 +1290,6 @@ a {
 
   .start-menu-wrap {
     display: none;
-  }
-
-  .vxpopupwrapper {
-    display: none;
-  }
-
-  .popupparent.is-services {
-    display: none;
-    width: auto;
-  }
-
-  .popupparent.is-portfolio {
-    left: auto;
-    width: auto;
   }
 }
 
@@ -1487,10 +1345,6 @@ a {
     z-index: 160;
     display: none;
     width: auto;
-  }
-
-  .popup.is-vx-work1 {
-    top: 1%;
   }
 
   .popup.is-vx-work2 {
@@ -1559,11 +1413,6 @@ a {
     line-height: 1.4;
   }
 
-  .vxpopupwrapper {
-    z-index: 170;
-    display: none;
-  }
-
   .workethicswrapper {
     padding-left: 1rem;
   }
@@ -1577,50 +1426,9 @@ a {
     padding-left: 2.5rem;
   }
 
-  .popupparent.is-services {
-    left: 1%;
-    top: 1%;
-    right: 1%;
-    z-index: 180;
-    display: none;
-  }
-
-  .popupparent.is-portfolio {
-    left: 1%;
-    top: 1%;
-    right: 1%;
-    bottom: auto;
-    z-index: 160;
-    display: none;
-    width: auto;
-  }
-
-  .popupparent.is-vx-work1 {
-    top: 1%;
-  }
-
-  .popupparent.is-vx-work2 {
-    left: 20%;
-    top: 30%;
-  }
-
-  .popupparent.is-vx-work3 {
-    left: 20%;
-    top: 60%;
-  }
-
-  .popupparent.is-work-ethics {
-    left: 1%;
-    top: 1%;
-    right: 1%;
-    z-index: 195;
-    display: none;
-    width: auto;
-  }
-
-  .popupparent.is-vx-work4 {
-    left: 20%;
-    top: 60%;
+  .teamwrapper {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
   }
 }
 

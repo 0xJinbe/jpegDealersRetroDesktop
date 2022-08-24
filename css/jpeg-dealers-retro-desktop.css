@@ -887,14 +887,6 @@ a {
   background-color: transparent;
 }
 
-.vxpopupwrapper {
-  position: relative;
-  z-index: 0;
-  display: none;
-  width: 100vw;
-  height: 100vh;
-}
-
 .workethicslogo {
   max-width: 45%;
 }
@@ -1146,125 +1138,6 @@ a {
   background-color: transparent;
 }
 
-.popupparent.is-services {
-  left: 23%;
-  top: 3%;
-  z-index: 0;
-  display: none;
-  overflow: visible;
-  width: 50rem;
-  height: 70vh;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-}
-
-.popupparent.is-portfolio {
-  left: 28%;
-  top: 10%;
-  z-index: 0;
-  display: none;
-  width: 45rem;
-  background-color: #d6d6d1;
-}
-
-.popupparent.is-vx-work1 {
-  left: 19%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 17rem;
-  height: 17rem;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  background-color: #d6d6d1;
-}
-
-.popupparent.is-vx-work2 {
-  left: 55%;
-  top: 7%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 17rem;
-  height: 17rem;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-}
-
-.popupparent.is-vx-work3 {
-  left: 65%;
-  top: 50%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 17rem;
-  height: 17rem;
-}
-
-.popupparent.is-work-ethics {
-  left: 25%;
-  top: auto;
-  z-index: 0;
-  display: none;
-  overflow: visible;
-  width: 33rem;
-  height: auto;
-  max-height: 90vh;
-  background-color: transparent;
-  background-image: url('../images/bg-ethics.png');
-  background-position: 0px 0px;
-  background-size: cover;
-}
-
-.popupparent.is-references1 {
-  left: 20%;
-  top: 1%;
-}
-
-.popupparent.is-contact {
-  left: 25%;
-  top: 5%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #d6d6d1;
-}
-
-.popupparent.is-references2 {
-  top: 35%;
-}
-
-.popupparent.is-references3 {
-  left: 20%;
-  top: 61%;
-}
-
-.popupparent.is-references2 {
-  left: 20%;
-  top: 31%;
-}
-
-.popupparent.is-vx-work4 {
-  left: 20%;
-  top: 45%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 17rem;
-  height: 17rem;
-}
-
 .soundbutton {
   position: absolute;
   left: auto;
@@ -1399,20 +1272,12 @@ a {
     font-size: 0.5rem;
   }
 
-  .vxpopupwrapper {
-    display: none;
-  }
-
   .text-block-landingp2 {
     font-size: 0.5rem;
   }
 
   .text-block-landingp3 {
     font-size: 0.5rem;
-  }
-
-  .popupparent.is-portfolio {
-    left: 10%;
   }
 
   .text-block-landingp4 {
@@ -1456,20 +1321,6 @@ a {
 
   .start-menu-wrap {
     display: none;
-  }
-
-  .vxpopupwrapper {
-    display: none;
-  }
-
-  .popupparent.is-services {
-    display: none;
-    width: auto;
-  }
-
-  .popupparent.is-portfolio {
-    left: auto;
-    width: auto;
   }
 }
 
@@ -1597,11 +1448,6 @@ a {
     line-height: 1.4;
   }
 
-  .vxpopupwrapper {
-    z-index: 170;
-    display: none;
-  }
-
   .workethicswrapper {
     padding-left: 1rem;
   }
@@ -1613,52 +1459,6 @@ a {
   .services-wrapper {
     padding-right: 2.5rem;
     padding-left: 2.5rem;
-  }
-
-  .popupparent.is-services {
-    left: 1%;
-    top: 1%;
-    right: 1%;
-    z-index: 180;
-    display: none;
-  }
-
-  .popupparent.is-portfolio {
-    left: 1%;
-    top: 1%;
-    right: 1%;
-    bottom: auto;
-    z-index: 160;
-    display: none;
-    width: auto;
-  }
-
-  .popupparent.is-vx-work1 {
-    top: 1%;
-  }
-
-  .popupparent.is-vx-work2 {
-    left: 20%;
-    top: 30%;
-  }
-
-  .popupparent.is-vx-work3 {
-    left: 20%;
-    top: 60%;
-  }
-
-  .popupparent.is-work-ethics {
-    left: 1%;
-    top: 1%;
-    right: 1%;
-    z-index: 195;
-    display: none;
-    width: auto;
-  }
-
-  .popupparent.is-vx-work4 {
-    left: 20%;
-    top: 60%;
   }
 
   .teamwrapper {

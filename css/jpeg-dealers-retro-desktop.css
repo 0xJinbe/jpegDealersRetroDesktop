@@ -1142,6 +1142,10 @@ a {
   z-index: auto;
 }
 
+.popupparent.references {
+  display: none;
+}
+
 .soundbutton {
   position: absolute;
   left: auto;

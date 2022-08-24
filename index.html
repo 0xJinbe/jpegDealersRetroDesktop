@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Wed Aug 24 2022 16:27:16 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Wed Aug 24 2022 18:35:53 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6303b7473ed24c0b1205fea7" data-wf-site="62f1b5c73d1cea6afc3c38ee">
 <head>
   <meta charset="utf-8">
@@ -406,7 +406,7 @@
       setInterval('clock()', 1000);
       //bootloader green text function
       //part1
-      var content1 = 'QBIOS (C) 1982 Motherboard, Inc.BIOS Date 22/12/1982 15:43:29 Ver: 08.00.15CPU: Intel(R) CPU 330 @ 40 MHz Speed: 40 MHz This VCA/PCI Bios is released under the GNU LGPL Press F11 for FULLSCREEN Memory Clock: 63 MHz, Tcl: 7 Trcd: 4 Trp: 8 Tras:20 (2T Timing) 8 bit   Memory Test: 2520 0K';
+      var content1 = 'QBIOS (C) 1982 Motherboard, Inc.BIOS Date 22/12/1982 15:43:29 Ver: 08.00.15CPU: Intel(R) CPU 330 @ 40 MHzSpeed: 40MHzThis VCA/PCI Bios is released under the GNU LGPL Press F11 for FULLSCREEN Memory Clock: 63MHz, Tcl:7 Trcd: 4 Trp:8 Tras:20 (2T Timing) 8 bit Memory Test: 2520 0K';
       var ele1 = '<span>' + content1.split('').join('</span><span>') + '</span>';
       $(ele1).hide().appendTo($("#p1")).each(function(i) {
         $(this).delay(2 * i).css({
@@ -420,7 +420,7 @@
       var content2 = 'OK PMU Rom Version: 9303 NVMM Rom Version: 4.092.89 Initializing USB Controllers. Done.128MB OK USB Device(s)L 1 Keyboard, 1 Mouse, 1 Hub, 1 Storage Device Auto-detecting USB Mass Storage Devices...Device #01: USB 2.0 FlashDisk Speed 01 USB mass storage devices found and configured.';
       var ele2 = '<span>' + content2.split('').join('</span><span>') + '</span>';
       $(ele2).hide().appendTo($("#p2")).each(function(i) {
-        $(this).delay(5 * i).css({
+        $(this).delay(1000).delay(5 * i).css({
           display: 'inline',
           opacity: 0,
         }).animate({
@@ -431,7 +431,7 @@
       var content3 = '(C) Motherboard, Inc.64-0100-00001-001011111-092909-79297-1AR0 V003-Y2UC Booting from Hard Disk...';
       var ele3 = '<span>' + content3.split('').join('</span><span>') + '</span>';
       $(ele3).hide().appendTo($("#p3")).each(function(i) {
-        $(this).delay(10 * i).css({
+        $(this).delay(2500).delay(10 * i).css({
           display: 'inline',
           opacity: 0,
         }).animate({
@@ -442,7 +442,7 @@
       var content4 = 'Connecting to Worlwide web 3 Lightning Node ... Online. Ethereum Sharding... 0 to 100% Cardano... No Smart contracts found.';
       var ele4 = '<span>' + content4.split('').join('</span><span>') + '</span>';
       $(ele4).hide().appendTo($("#p4")).each(function(i) {
-        $(this).delay(15 * i).css({
+        $(this).delay(4000).delay(15 * i).css({
           display: 'inline',
           opacity: 0,
         }).animate({
@@ -453,7 +453,7 @@
       var content5 = 'Connecting to JPEGDEALERS.COM terminal. Success...';
       var ele5 = '<span>' + content5.split('').join('</span><span>') + '</span>';
       $(ele5).hide().appendTo($("#p5")).each(function(i) {
-        $(this).delay(110 * i).css({
+        $(this).delay(5000).delay(60 * i).css({
           display: 'inline',
           opacity: 0,
         }).animate({

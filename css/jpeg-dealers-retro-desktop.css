@@ -367,13 +367,6 @@ a {
   top: 1%;
 }
 
-.popup.is-contact {
-  left: 31%;
-  top: 21%;
-  display: none;
-  background-color: #d6d6d1;
-}
-
 .popup.is-references2 {
   top: 35%;
 }
@@ -411,6 +404,10 @@ a {
   display: none;
   width: 17rem;
   height: 17rem;
+}
+
+.popup.contact {
+  display: none;
 }
 
 .popup-top-bar {

@@ -386,8 +386,8 @@ a {
 }
 
 .popup.is-contact {
-  left: 15%;
-  top: 5%;
+  left: 34%;
+  top: 17%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1121,13 +1121,13 @@ a {
 
 .popupparent {
   position: absolute;
-  left: 51%;
-  top: 3%;
+  left: auto;
+  top: auto;
   right: auto;
   bottom: auto;
   display: none;
-  width: 35rem;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
   max-height: none;
   padding: 0.1rem;
   -webkit-box-orient: vertical;

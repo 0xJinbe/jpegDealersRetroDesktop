@@ -1262,9 +1262,9 @@ a {
 .soundbutton {
   position: absolute;
   left: auto;
-  top: auto;
+  top: 3%;
   right: 1%;
-  bottom: 10%;
+  bottom: auto;
 }
 
 .soundonbutton {

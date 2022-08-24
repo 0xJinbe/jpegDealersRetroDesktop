@@ -338,7 +338,7 @@ a {
 
 .popup.is-vx-work3 {
   left: 65%;
-  top: 112%;
+  top: 90%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -383,7 +383,7 @@ a {
 
 .popup.is-vx-work4 {
   left: 184%;
-  top: 139%;
+  top: 110%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -404,6 +404,7 @@ a {
 
 .popup.vxwork1-1 {
   left: 23%;
+  top: 5%;
   display: none;
   width: 17rem;
   height: 17rem;

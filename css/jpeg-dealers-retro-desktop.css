@@ -298,28 +298,14 @@ a {
   background-color: #d6d6d1;
 }
 
-.popup.is-services {
-  left: 47%;
-  top: 3%;
+.popup.is-portfolio {
+  left: 60%;
+  top: 10%;
   z-index: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  overflow: visible;
-  width: 50rem;
-  height: 70vh;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-}
-
-.popup.is-portfolio {
-  left: 28%;
-  top: 10%;
-  z-index: 0;
-  display: none;
   width: 45rem;
   background-color: #d6d6d1;
 }
@@ -395,16 +381,6 @@ a {
   height: 17rem;
 }
 
-.popup.is-team {
-  left: 26%;
-  top: 5%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 50rem;
-}
-
 .popup.vxwork1-1 {
   left: 23%;
   top: 5%;
@@ -427,6 +403,11 @@ a {
   left: 29%;
   top: 9%;
   display: none;
+}
+
+.popup.portfolio {
+  display: none;
+  width: 45rem;
 }
 
 .popup-top-bar {
@@ -1364,11 +1345,6 @@ a {
     max-width: none;
   }
 
-  .popup.is-services {
-    display: none;
-    width: auto;
-  }
-
   .popup.is-portfolio {
     left: auto;
     width: auto;
@@ -1412,14 +1388,6 @@ a {
   }
 
   .nav-bar-divider {
-    display: none;
-  }
-
-  .popup.is-services {
-    left: 1%;
-    top: 1%;
-    right: 1%;
-    z-index: 180;
     display: none;
   }
 

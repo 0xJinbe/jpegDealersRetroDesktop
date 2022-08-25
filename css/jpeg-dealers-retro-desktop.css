@@ -430,8 +430,9 @@ a {
 }
 
 .popup.workethics {
-  top: 5%;
+  top: 2%;
   display: none;
+  height: 35rem;
   background-image: url('../images/paperbg-ethics.png');
   background-position: 50% 50%;
   background-size: cover;
@@ -925,7 +926,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   overflow: scroll;
-  height: 40rem;
+  height: auto;
   padding: 2rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;

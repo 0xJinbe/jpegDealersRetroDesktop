@@ -405,12 +405,13 @@ a {
 }
 
 .popup.contact {
+  left: 25%;
   display: none;
 }
 
 .popup.team {
   left: 36%;
-  top: 10%;
+  top: 15%;
   display: none;
   width: auto;
 }
@@ -422,15 +423,20 @@ a {
 }
 
 .popup.portfolio {
+  left: 17%;
+  top: 17%;
   display: none;
   width: 45rem;
 }
 
 .popup.references {
+  left: 22%;
+  top: 18%;
   display: none;
 }
 
 .popup.workethics {
+  left: 35%;
   top: 2%;
   display: none;
   height: 35rem;

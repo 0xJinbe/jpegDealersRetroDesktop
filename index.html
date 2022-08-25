@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Thu Aug 25 2022 03:10:07 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Thu Aug 25 2022 15:52:36 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="630691cd51e2f4f9d5e8f357" data-wf-site="62f1b5c73d1cea6afc3c38ee">
 <head>
   <meta charset="utf-8">
@@ -412,7 +412,7 @@
   <div class="w-embed"><audio id="bootloader-music" class="audio1" loop="">
       <source src="audio/bootloaderSound.mp3" type="audio/mp3">
     </audio>
-    <audio id="desktop-music" loop="">
+    <audio id="desktop-music" class="audio1" loop="">
       <source src="audio/desktopSound.mp3" type="audio/mp3">
     </audio>
   </div>
@@ -524,18 +524,23 @@
         }, 100);
       });
       //audio functions
-      const audio = document.querySelector("audio1");
-      let playing = false;
-      $(document).ready(function() {
-        $('.play_btn').click(function() {
-          if (playing == true) {
-            playing = false;
-            audio.pause();
-          } else {
-            audio.play();
-            playing = true;
-          }
-        })
+      //const audio = document.querySelector("audio1");
+      //let playing = false;
+      //$(document).ready(function(){
+      //	$('.play_btn').click(function(){
+      //  	if (playing == true) {
+      //   playing = false;
+      //    audio.pause();
+      //   } else {
+      //    	audio.play();
+      //      playing = true;
+      //    }
+      //    
+      //  	})
+      //  });
+      var music = document.getElementById('desktop-music');
+      $(".play_btn").click(function() {
+        music.play();
       });
     </script>
 </body>

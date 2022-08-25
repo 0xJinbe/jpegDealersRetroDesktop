@@ -299,10 +299,13 @@ a {
 }
 
 .popup.is-services {
-  left: 23%;
+  left: 47%;
   top: 3%;
   z-index: 0;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   overflow: visible;
   width: 50rem;
   height: 70vh;
@@ -418,6 +421,12 @@ a {
   top: 2%;
   display: none;
   width: auto;
+}
+
+.popup.services {
+  left: 29%;
+  top: 9%;
+  display: none;
 }
 
 .popup-top-bar {
@@ -1044,6 +1053,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   overflow: scroll;
+  height: 65vh;
   padding: 2rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;

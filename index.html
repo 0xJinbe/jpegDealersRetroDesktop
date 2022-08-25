@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Thu Aug 25 2022 18:47:00 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Thu Aug 25 2022 18:51:01 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="630691cd51e2f4f9d5e8f357" data-wf-site="62f1b5c73d1cea6afc3c38ee">
 <head>
   <meta charset="utf-8">
@@ -520,17 +520,17 @@
       });
       //audio functions
       const audio = document.querySelector("audio");
-      let playing = true;
+      let playing = false;
       $(document).ready(function() {
         $(".play_btn").click(function() {
           if (playing == true) {
             audio.volume = 0.25;
-            audio.play();
-            playing = true;
-          } else {
-            audio.volume = 0.25;
             audio.pause();
             playing = false;
+          } else {
+            audio.volume = 0.25;
+            audio.play();
+            playing = true;
           }
         });
       });

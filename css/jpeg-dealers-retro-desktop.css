@@ -409,7 +409,8 @@ a {
 }
 
 .popup.team {
-  top: 2%;
+  left: 36%;
+  top: 10%;
   display: none;
   width: auto;
 }
@@ -1199,7 +1200,7 @@ a {
   display: flex;
   overflow: scroll;
   width: 50rem;
-  height: 85vh;
+  height: 45vh;
   padding: 2rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;

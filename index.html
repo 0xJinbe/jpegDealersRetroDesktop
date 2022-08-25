@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Thu Aug 25 2022 17:24:13 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Thu Aug 25 2022 17:49:30 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="630691cd51e2f4f9d5e8f357" data-wf-site="62f1b5c73d1cea6afc3c38ee">
 <head>
   <meta charset="utf-8">
@@ -44,9 +44,7 @@
   </div>
   <div data-w-id="aeb5d509-3fdb-6d0a-acc9-3de8071b906d" class="desktop-wrapper">
     <div class="play_btn">
-      <div class="w-embed"><audio id="desktop-music" class="audio1" loop="">
-          <source src="audio/desktopSound.mp3" type="audio/mp3">
-        </audio></div>
+      <div class="w-embed"><audio src="audio/desktopSound.mp3" class="audio"></audio></div>
     </div>
     <div id="popup-workEthics" class="popup workethics">
       <div class="popup-top-bar">
@@ -521,14 +519,18 @@
         }, 100);
       });
       //audio functions
-      const desktopAudio = document.querySelectio('audio1');
+      const audio = document.querySelector("audio");
       let playing = false;
       $(document).ready(function() {
-        $('.play_btn').click(function() {
+        $(".play_btn").click(function() {
           if (playing == true) {
+            audio.volume = 0.3;
             audio.pause();
+            playing = false;
           } else {
+            audio.volume = 0.3;
             audio.play();
+            playing = true;
           }
         });
       });

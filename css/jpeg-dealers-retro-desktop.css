@@ -1108,6 +1108,12 @@ a {
   cursor: pointer;
 }
 
+.play_btn:hover {
+  background-image: url('../images/soundoff.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
 .text-block-landingp4 {
   width: 35ch;
   margin-bottom: 15px;

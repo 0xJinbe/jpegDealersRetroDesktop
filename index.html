@@ -103,7 +103,7 @@
       <div class="play_btn">
         <div class="w-embed">
           <audio id="desktopSound" src="audio/desktopSound.mp3" class="audio">
-          <audio id="bootloaderSound" src="audio/bootloaderSound.mp3" class="audio">
+          <audio preload="auto" id="bootloaderSound" src="audio/bootloaderSound.mp3" class="audio">
         </div>
       </div>
       <div id="popup-workEthics" class="popup workethics">
@@ -1143,16 +1143,14 @@
       $(document).ready(function () {
         audioB.volume = 0.1;
         audioB.play();
-        
 
-        
+        audioD.volume = 0.2;
+
         $(".play_btn").click(function () {
           if (playingD == true) {
-            audioD.volume = 0.2;
             audioD.pause();
             playingD = false;
           } else {
-            audioD.volume = 0.2;
             audioD.play();
             playingD = true;
           }

@@ -1138,13 +1138,18 @@
 
       const audioB = document.getElementById("bootloaderSound");
       const audioD = document.getElementById("desktopSound");
-      let playingD = false;
+      let playingD = true;
 
       $(document).ready(function () {
-        audioB.volume = 0.1;
+        audioB.volume = 0.2;
+        audioD.volume = 0.05;
         audioB.play();
 
-        audioD.volume = 0.2;
+        setTimeout(function(){
+          audioD.play();
+          console.log('your audio is started just now');
+    }, 9000)
+
 
         $(".play_btn").click(function () {
           if (playingD == true) {

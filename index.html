@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Mon Aug 29 2022 18:23:40 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Mon Aug 29 2022 18:44:55 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="630691cd51e2f4f9d5e8f357" data-wf-site="62f1b5c73d1cea6afc3c38ee">
 <head>
   <meta charset="utf-8">
@@ -45,13 +45,9 @@
   <div data-w-id="aeb5d509-3fdb-6d0a-acc9-3de8071b906d" class="desktop-wrapper">
     <div class="play_btn">
       <div class="w-embed w-iframe"><iframe src="audio/blank.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-        <audio autoplay="">
-          <source src="audio/desktopSound.mp3" type="audio/mp3" class="audio" id="desktopSound">
-        </audio>
-        <audio autoplay="">
-          <source src="audio/bootloaderSound.mp3" type="audio/mp3" class="audio" id="bootloaderSound">
-        </audio>
-      </div>
+        <audio id="desktopSound" src="audio/desktopSound.mp3" class="audio">
+          <audio preload="auto" id="bootloaderSound" src="audio/bootloaderSound.mp3" class="audio">
+      </audio></audio></div>
     </div>
     <div id="popup-workEthics" class="popup workethics">
       <div class="popup-top-bar">
@@ -601,7 +597,7 @@
       const audioD = document.getElementById("desktopSound");
       let playingD = true;
       $(document).ready(function() {
-        audioB.volume = 0.3;
+        audioB.volume = 0.2;
         audioD.volume = 0.2;
         audioB.play();
         setTimeout(function() {

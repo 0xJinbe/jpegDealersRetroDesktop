@@ -397,7 +397,7 @@ a {
 }
 
 .popup.workethics {
-  left: 35%;
+  left: 30%;
   top: 2%;
   display: none;
   height: auto;
@@ -1064,7 +1064,8 @@ a {
 }
 
 .vxcontentwrapper.vx2 {
-  background-image: url('../images/2.gif');
+  margin-top: 0px;
+  background-image: url('../images/2.webp');
   background-position: 50% 50%;
   background-size: cover;
 }

@@ -879,10 +879,6 @@ a {
   line-height: 1.3;
 }
 
-.portfoliotext:hover {
-  text-decoration: underline;
-}
-
 .portfoliotext.whatsdone {
   color: #005249;
 }
@@ -1301,6 +1297,20 @@ a {
   text-decoration: underline;
 }
 
+.portfolioprojname {
+  margin-bottom: 10px;
+  color: #005249;
+  line-height: 1.3;
+}
+
+.portfolioprojname:hover {
+  text-decoration: underline;
+}
+
+.portfolioprojname.whatsdone {
+  color: #005249;
+}
+
 @media screen and (max-width: 991px) {
   .start-menu-wrap {
     display: none;
@@ -1494,6 +1504,11 @@ a {
   .teamwrapper {
     padding-right: 2.5rem;
     padding-left: 2.5rem;
+  }
+
+  .portfolioprojname {
+    margin-bottom: 20px;
+    line-height: 1.4;
   }
 }
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Mon Aug 29 2022 14:16:31 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Mon Aug 29 2022 14:37:39 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="630691cd51e2f4f9d5e8f357" data-wf-site="62f1b5c73d1cea6afc3c38ee">
 <head>
   <meta charset="utf-8">
@@ -413,21 +413,27 @@
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script async="" src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
   <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-  <!--  Calendly badge widget begin  -->
+  !-- Calendly badge widget begin -->
   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
   <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async=""></script>
+  <style type="text/css">
+      .calendly-badge-widget {
+        bottom: 50px !important;
+        font-family: Pressstart2p, sans-serif;
+      }
+    </style>
   <script type="text/javascript">
       window.onload = function() {
         Calendly.initBadgeWidget({
           url: 'https://calendly.com/elliothereum',
-          text: 'Schedule Meeting',
+          text: 'Schedule a Meeting',
           color: '#951cb5',
           textColor: '#ffffff',
-          branding: true
+          branding: false
         });
       }
     </script>
-  <!--  Calendly badge widget end  -->
+  <!--   Calendly badge widget end   -->
   <script>
       // draggable popups
       $("#popup-team").draggable();

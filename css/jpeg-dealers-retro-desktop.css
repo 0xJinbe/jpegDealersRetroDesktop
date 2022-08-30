@@ -58,7 +58,7 @@ a {
   top: 0%;
   right: auto;
   bottom: auto;
-  z-index: 1;
+  z-index: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1339,6 +1339,10 @@ a {
 }
 
 @media screen and (max-width: 991px) {
+  .popup.workethics {
+    left: auto;
+  }
+
   .start-menu-wrap {
     display: none;
   }
@@ -1409,7 +1413,7 @@ a {
   }
 
   .desktop-icon-wrapper.is-portfolio-icon {
-    width: auto;
+    width: 8rem;
   }
 
   .desktop-icons {
@@ -1417,8 +1421,16 @@ a {
     max-width: none;
   }
 
+  .popup.workethics {
+    width: 90vw;
+  }
+
   .start-menu-wrap {
     display: none;
+  }
+
+  .workethicswrapper {
+    height: auto;
   }
 }
 
@@ -1471,6 +1483,10 @@ a {
   .popup.is-vx-work4 {
     left: 20%;
     top: 60%;
+  }
+
+  .popup.workethics {
+    width: 100vw;
   }
 
   .start-menu-wrap {

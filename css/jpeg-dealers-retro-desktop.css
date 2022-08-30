@@ -796,7 +796,7 @@ a {
 }
 
 .heading {
-  margin-top: 5px;
+  margin-top: 0px;
   margin-bottom: 10px;
   font-family: Pressstart2p, sans-serif;
   color: #005249;
@@ -1062,7 +1062,7 @@ a {
   display: flex;
   overflow: scroll;
   height: 65vh;
-  padding: 2rem;
+  padding: 2rem 2rem 0rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;

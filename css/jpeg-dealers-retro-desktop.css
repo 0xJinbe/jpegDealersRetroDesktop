@@ -360,7 +360,7 @@ a {
 }
 
 .popup.vxwork1-1 {
-  left: 23%;
+  left: 27%;
   top: 5%;
   display: none;
   width: 17rem;
@@ -368,12 +368,12 @@ a {
 }
 
 .popup.contact {
-  left: 27%;
+  left: 30%;
   display: none;
 }
 
 .popup.team {
-  left: 23%;
+  left: 20%;
   top: 5%;
   display: none;
   width: auto;
@@ -388,7 +388,7 @@ a {
 }
 
 .popup.portfolio {
-  left: 23%;
+  left: 22%;
   top: 17%;
   display: none;
   width: 45rem;
@@ -403,7 +403,7 @@ a {
 }
 
 .popup.workethics {
-  left: 30%;
+  left: 32%;
   top: 2%;
   display: none;
   height: auto;

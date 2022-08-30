@@ -1143,6 +1143,7 @@ a {
   top: 3%;
   right: 2%;
   bottom: auto;
+  z-index: 1;
   width: 2.55rem;
   height: 2.55rem;
   background-color: rgba(56, 152, 236, 0);
@@ -1341,6 +1342,7 @@ a {
 @media screen and (max-width: 991px) {
   .popup.workethics {
     left: auto;
+    width: 80vw;
   }
 
   .start-menu-wrap {
@@ -1381,22 +1383,27 @@ a {
   }
 
   .text-block-landingp1 {
+    width: auto;
     font-size: 0.5rem;
   }
 
   .text-block-landingp2 {
+    width: auto;
     font-size: 0.5rem;
   }
 
   .text-block-landingp3 {
+    width: auto;
     font-size: 0.5rem;
   }
 
   .text-block-landingp4 {
+    width: auto;
     font-size: 0.5rem;
   }
 
   .text-block-landingp5 {
+    width: auto;
     font-size: 0.5rem;
   }
 }

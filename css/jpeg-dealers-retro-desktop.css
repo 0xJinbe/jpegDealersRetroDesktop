@@ -366,7 +366,7 @@ a {
 }
 
 .popup.contact {
-  left: 25%;
+  left: 27%;
   display: none;
 }
 
@@ -382,6 +382,7 @@ a {
   top: 9%;
   display: none;
   width: 50vw;
+  min-width: 45rem;
 }
 
 .popup.portfolio {

@@ -808,8 +808,8 @@ a {
   font-family: Pressstart2p, sans-serif;
   color: #005249;
   font-size: 0.5rem;
-  line-height: 1.3;
-  text-align: center;
+  line-height: 1.5;
+  text-align: justify;
 }
 
 .portfolioinnerwrapp {
@@ -985,10 +985,10 @@ a {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: transparent;
 }
 
@@ -1016,7 +1016,7 @@ a {
 
 .buttoncontact:hover {
   background-color: #290c5e;
-  color: #005249;
+  color: #fff;
 }
 
 .referencescontent {

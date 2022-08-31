@@ -1340,9 +1340,88 @@ a {
   font-style: italic;
 }
 
+.vx-tittle {
+  margin-left: 0rem;
+  color: #fff;
+  font-size: 0.7rem;
+  line-height: 1.3rem;
+}
+
 @media screen and (max-width: 991px) {
+  .popup {
+    left: auto;
+    top: 5%;
+  }
+
+  .popup.is-vx-work2 {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .popup.is-vx-work3 {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .popup.is-references2 {
+    left: auto;
+  }
+
+  .popup.is-vx-work4 {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .popup.vxwork1-1 {
+    left: 25px;
+    top: 25px;
+    right: auto;
+    bottom: auto;
+    z-index: 1;
+    display: none;
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .popup.contact {
+    left: auto;
+    z-index: 1;
+    display: none;
+  }
+
+  .popup.team {
+    left: auto;
+    z-index: 1;
+    display: none;
+    width: 95vw;
+  }
+
+  .popup.services {
+    left: auto;
+    z-index: 1;
+    display: none;
+  }
+
+  .popup.portfolio {
+    left: auto;
+    z-index: 1;
+    display: none;
+    width: 95vw;
+  }
+
+  .popup.references {
+    left: auto;
+    top: 5%;
+    z-index: 1;
+    display: none;
+    width: 95vw;
+    min-width: 0rem;
+  }
+
   .popup.workethics {
     left: auto;
+    z-index: 1;
+    display: none;
     width: 80vw;
   }
 
@@ -1355,6 +1434,10 @@ a {
   }
 
   .clock-wrapper {
+    display: none;
+  }
+
+  .pre-looader {
     display: none;
   }
 
@@ -1383,6 +1466,10 @@ a {
     padding-left: 10px;
   }
 
+  .image {
+    max-width: 90%;
+  }
+
   .text-block-landingp1 {
     width: auto;
     font-size: 0.5rem;
@@ -1407,6 +1494,24 @@ a {
     width: auto;
     font-size: 0.5rem;
   }
+
+  .teamwrapper {
+    width: auto;
+    height: auto;
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+
+  .paragraphteam {
+    width: 70ch;
+  }
+
+  .gridteam {
+    width: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1429,6 +1534,44 @@ a {
     max-width: none;
   }
 
+  .popup {
+    width: 95vw;
+  }
+
+  .popup.is-vx-work2 {
+    left: 108%;
+    top: 0%;
+  }
+
+  .popup.is-vx-work3 {
+    left: auto;
+    top: 115%;
+  }
+
+  .popup.is-references2 {
+    min-width: 0rem;
+  }
+
+  .popup.is-vx-work4 {
+    left: 108%;
+    top: 115%;
+  }
+
+  .popup.team {
+    top: 1%;
+    height: 90vh;
+  }
+
+  .popup.services {
+    top: 5%;
+    width: 95vw;
+    min-width: 0rem;
+  }
+
+  .popup.references {
+    min-width: 0rem;
+  }
+
   .popup.workethics {
     width: 90vw;
   }
@@ -1437,8 +1580,40 @@ a {
     display: none;
   }
 
+  .image {
+    max-width: 80%;
+  }
+
   .workethicswrapper {
     height: auto;
+  }
+
+  .referencesimg {
+    display: none;
+  }
+
+  .paragraphreferences {
+    width: auto;
+  }
+
+  .teamwrapper {
+    overflow: hidden;
+  }
+
+  .paragraphteam {
+    width: 50ch;
+  }
+
+  .gridteam {
+    overflow: scroll;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .vx-tittle {
+    font-size: 0.5rem;
   }
 }
 
@@ -1479,21 +1654,56 @@ a {
   }
 
   .popup.is-vx-work2 {
-    left: 20%;
-    top: 30%;
+    left: auto;
+    top: 105%;
   }
 
   .popup.is-vx-work3 {
-    left: 20%;
-    top: 60%;
+    left: 1%;
+    top: 208%;
+    display: none;
   }
 
   .popup.is-vx-work4 {
-    left: 20%;
-    top: 60%;
+    left: auto;
+    top: 213%;
+  }
+
+  .popup.vxwork1-1 {
+    left: 33px;
+  }
+
+  .popup.contact {
+    top: 1%;
+    display: none;
+    width: 100vw;
+  }
+
+  .popup.team {
+    display: none;
+    width: 100vw;
+  }
+
+  .popup.services {
+    top: 1%;
+    display: none;
+    width: 100vw;
+  }
+
+  .popup.portfolio {
+    top: 1%;
+    display: none;
+    width: 100vw;
+  }
+
+  .popup.references {
+    top: 1%;
+    display: none;
+    width: 100vw;
   }
 
   .popup.workethics {
+    display: none;
     width: 100vw;
   }
 
@@ -1521,9 +1731,19 @@ a {
     padding-left: 5px;
   }
 
+  .image {
+    max-width: 60%;
+  }
+
   .portfolioinnerwrapp {
-    min-height: 450px;
-    padding-left: 0.4rem;
+    height: auto;
+    min-height: 0px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -1531,7 +1751,15 @@ a {
   }
 
   .portfolioleftwrapp {
+    height: 20rem;
     margin-right: 10px;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+
+  .portfoliorightwrapp {
+    height: 20rem;
   }
 
   .portfoliotext {
@@ -1547,14 +1775,44 @@ a {
     color: rgba(20, 20, 20, 0.85);
   }
 
+  .contactbuttonswrapper {
+    min-height: 100px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
   .services-wrapper {
+    height: 0px;
+    min-height: 700px;
     padding-right: 2.5rem;
     padding-left: 2.5rem;
   }
 
   .teamwrapper {
-    padding-right: 2.5rem;
-    padding-left: 2.5rem;
+    overflow: scroll;
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+
+  .paragraphteam {
+    width: 35ch;
+    text-align: center;
+  }
+
+  .gridteam {
+    overflow: visible;
+    width: 100%;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+  }
+
+  .teamimg {
+    max-width: 60%;
   }
 
   .portfolioprojname {

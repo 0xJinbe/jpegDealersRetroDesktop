@@ -1351,6 +1351,8 @@ a {
   .popup {
     left: auto;
     top: 5%;
+    z-index: 1;
+    display: none;
   }
 
   .popup.is-vx-work2 {

@@ -491,7 +491,8 @@ a {
   bottom: 98%;
   display: none;
   width: auto;
-  min-height: 3rem;
+  height: auto;
+  min-height: 15rem;
   padding: 1rem 1rem 1rem 3rem;
   background-color: #ececec;
   box-shadow: inset 3px 2px 0 0 #fff, 2px 2px 0 0 #a7a7a7;

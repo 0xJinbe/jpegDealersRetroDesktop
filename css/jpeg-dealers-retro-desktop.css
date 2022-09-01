@@ -1561,6 +1561,7 @@ a {
 
   .popup.team {
     top: 1%;
+    display: none;
     height: 90vh;
   }
 
@@ -1608,6 +1609,7 @@ a {
 
   .gridteam {
     overflow: scroll;
+    width: 100%;
     -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     -ms-grid-rows: auto auto auto auto;

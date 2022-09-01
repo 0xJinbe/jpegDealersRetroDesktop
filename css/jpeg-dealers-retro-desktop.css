@@ -493,6 +493,7 @@ a {
   width: auto;
   height: auto;
   min-height: 15rem;
+  min-width: 10rem;
   padding: 1rem 1rem 1rem 3rem;
   background-color: #ececec;
   box-shadow: inset 3px 2px 0 0 #fff, 2px 2px 0 0 #a7a7a7;
@@ -517,6 +518,10 @@ a {
 
 .start-menu-item-wrap:hover {
   background-color: hsla(0, 0%, 65.3%, 0.74);
+}
+
+.start-menu-item-wrap.is-shutdown {
+  height: 3rem;
 }
 
 .start-icon {
@@ -1432,7 +1437,10 @@ a {
   }
 
   .start-menu-item-wrap.is-shutdown {
-    display: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
 
   .clock-wrapper {
@@ -1747,6 +1755,7 @@ a {
     bottom: 101%;
     z-index: 100;
     display: none;
+    min-width: 10rem;
   }
 
   .clock {

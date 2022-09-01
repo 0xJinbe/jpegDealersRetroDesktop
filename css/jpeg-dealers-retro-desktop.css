@@ -1700,7 +1700,7 @@ a {
   }
 
   .popup.contact {
-    top: 10%;
+    top: 15%;
     display: none;
     width: 90vw;
   }
@@ -1709,12 +1709,16 @@ a {
     top: 5%;
     display: none;
     width: 90vw;
+    height: 85%;
+    min-height: 0px;
   }
 
   .popup.services {
     top: 5%;
     display: none;
     width: 90vw;
+    height: auto;
+    min-height: 0px;
     min-width: 330px;
   }
 
@@ -1865,6 +1869,7 @@ a {
   .gridteam {
     overflow: visible;
     width: 100%;
+    justify-items: center;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto auto auto auto auto;

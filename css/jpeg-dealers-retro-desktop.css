@@ -1729,7 +1729,7 @@ a {
     top: 5%;
     display: none;
     width: 90vw;
-    height: 735px;
+    height: 690px;
     min-height: 0px;
     min-width: 330px;
   }
@@ -1851,7 +1851,7 @@ a {
 
   .services-wrapper {
     height: 0px;
-    min-height: 700px;
+    min-height: 655px;
     padding-right: 2.5rem;
     padding-left: 2.5rem;
   }

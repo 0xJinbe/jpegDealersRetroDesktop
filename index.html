@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Fri Sep 02 2022 18:36:58 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Sun Sep 04 2022 17:40:39 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="630691cd51e2f4f9d5e8f357" data-wf-site="62f1b5c73d1cea6afc3c38ee">
 <head>
   <meta charset="utf-8">
@@ -376,8 +376,8 @@
       </div>
       <div class="popupcontentdiv"></div>
     </div>
-    <div class="calendlywrapper">
-      <div class="calendlyembed w-embed w-script">
+    <div id="calendly-div" class="calendlywrapper">
+      <div id="calendly-embed" class="calendlyembed w-embed w-script">
         <!--  Calendly badge widget begin  -->
         <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
         <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async=""></script>
@@ -431,186 +431,169 @@
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=62f1b5c73d1cea6afc3c38ee" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="js/jpeg-dealers-retro-desktop.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-  <script async="" src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
-  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-  <script>
-      // draggable popups
-      $("#popup-team").draggable();
-      $("#popup-contact").draggable();
-      $("#popup-vxWork11").draggable();
-      $("#popup-portfolio").draggable();
-      $("#popup-services").draggable();
-      $("#popup-reference11").draggable();
-      $("#popup-workEthics").draggable();
-      $(".popup").mousedown(function() {
-        $(".popup").css("z-index", 1);
-        $(this).css("z-index", 10);
-      });
-      //clock function
-      function clock() {
-        //Save the times in variables
-        var today = new Date();
-        var hours = today.getHours();
-        var minutes = today.getMinutes();
-        var seconds = today.getSeconds();
-        //Set the AM or PM time
-        if (hours >= 12) {
-          meridiem = " PM";
-        } else {
-          meridiem = " AM";
-        }
-        //convert hours to 12 hour format and put 0 in front
-        if (hours > 12) {
-          hours = hours - 12;
-        } else if (hours === 0) {
-          hours = 12;
-        }
-        //Put 0 in front of single digit minutes and seconds
-        if (minutes < 10) {
-          minutes = "0" + minutes;
-        } else {
-          minutes = minutes;
-        }
-        if (seconds < 10) {
-          seconds = "0" + seconds;
-        } else {
-          seconds = seconds;
-        }
-        document.getElementById("clock").innerHTML =
-          hours + ":" + minutes + ":" + seconds + meridiem;
-      }
-      setInterval("clock()", 1000);
-      //bootloader green text function
-      //part1
-      var content1 =
-        "QBIOS (C) 1982 Motherboard, Inc.BIOS Date 22/12/1982 15:43:29 Ver: 08.00.15CPU: Intel(R) CPU 330 @ 40 MHzSpeed: 40MHzThis VCA/PCI Bios is released under the GNU LGPL Press F11 for FULLSCREEN Memory Clock: 63MHz, Tcl:7 Trcd: 4 Trp:8 Tras:20 (2T Timing) 8 bit Memory Test: 2520 0K";
-      var ele1 =
-        "<span>" + content1.split("").join("</span><span>") + "</span>";
-      $(ele1)
-        .hide()
-        .appendTo($("#p1"))
-        .each(function(i) {
-          $(this)
-            .delay(1 * i)
-            .css({
+  < script async="" src="https://unpkg.com/typer-dot-js@0.1.0/typer.js">
+    < /script>
+      < script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js">
+        < /script>
+          < script>
+            // draggable popups
+            $("#popup-team").draggable();
+            $("#popup-contact").draggable();
+            $("#popup-vxWork11").draggable();
+            $("#popup-portfolio").draggable();
+            $("#popup-services").draggable();
+            $("#popup-reference11").draggable();
+            $("#popup-workEthics").draggable();
+            $(".popup").mousedown(function() {
+            $(".popup").css("z-index", 1);
+            $(this).css("z-index", 10);
+            });
+            //clock function
+            function clock() {
+            //Save the times in variables
+            var today = new Date();
+            var hours = today.getHours();
+            var minutes = today.getMinutes();
+            var seconds = today.getSeconds();
+            //Set the AM or PM time
+            if (hours >= 12) {
+            meridiem = " PM";
+            } else {
+            meridiem = " AM";
+            }
+            //convert hours to 12 hour format and put 0 in front
+            if (hours > 12) {
+            hours = hours - 12;
+            } else if (hours === 0) {
+            hours = 12;
+            }
+            //Put 0 in front of single digit minutes and seconds
+            if (minutes < 10) { minutes="0" + minutes; } else { minutes=minutes; } if (seconds < 10) { seconds="0" + seconds; } else { seconds=seconds; } document.getElementById("clock").innerHTML=hours + ":" + minutes + ":" + seconds + meridiem; } setInterval("clock()", 1000); //bootloader green text function //part1 var content1="QBIOS (C) 1982 Motherboard, Inc.BIOS Date 22/12/1982 15:43:29 Ver: 08.00.15CPU: Intel(R) CPU 330 @ 40 MHzSpeed: 40MHzThis VCA/PCI Bios is released under the GNU LGPL Press F11 for FULLSCREEN Memory Clock: 63MHz, Tcl:7 Trcd: 4 Trp:8 Tras:20 (2T Timing) 8 bit Memory Test: 2520 0K" ; var ele1="<span>" + content1.split("").join("</span><span>") + "</span>";
+              $(ele1)
+              .hide()
+              .appendTo($("#p1"))
+              .each(function(i) {
+              $(this)
+              .delay(1 * i)
+              .css({
               display: "inline",
               opacity: 0,
-            })
-            .animate({
-                opacity: 1,
+              })
+              .animate({
+              opacity: 1,
               },
               100
-            );
-        });
-      //part2
-      var content2 =
-        "OK PMU Rom Version: 9303 NVMM Rom Version: 4.092.89 Initializing USB Controllers. Done.128MB OK USB Device(s)L 1 Keyboard, 1 Mouse, 1 Hub, 1 Storage Device Auto-detecting USB Mass Storage Devices...Device #01: USB 2.0 FlashDisk Speed 01 USB mass storage devices found and configured.";
-      var ele2 =
-        "<span>" + content2.split("").join("</span><span>") + "</span>";
-      $(ele2)
-        .hide()
-        .appendTo($("#p2"))
-        .each(function(i) {
-          $(this)
-            .delay(1000)
-            .delay(5 * i)
-            .css({
+              );
+              });
+              //part2
+              var content2 =
+              "OK PMU Rom Version: 9303 NVMM Rom Version: 4.092.89 Initializing USB Controllers. Done.128MB OK USB Device(s)L 1 Keyboard, 1 Mouse, 1 Hub, 1 Storage Device Auto-detecting USB Mass Storage Devices...Device #01: USB 2.0 FlashDisk Speed 01 USB mass storage devices found and configured.";
+              var ele2 =
+              "<span>" + content2.split("").join("</span><span>") + "</span>";
+              $(ele2)
+              .hide()
+              .appendTo($("#p2"))
+              .each(function(i) {
+              $(this)
+              .delay(1000)
+              .delay(5 * i)
+              .css({
               display: "inline",
               opacity: 0,
-            })
-            .animate({
-                opacity: 1,
+              })
+              .animate({
+              opacity: 1,
               },
               100
-            );
-        });
-      //part3
-      var content3 =
-        "(C) Motherboard, Inc.64-0100-00001-001011111-092909-79297-1AR0 V003-Y2UC Booting from Hard Disk...";
-      var ele3 =
-        "<span>" + content3.split("").join("</span><span>") + "</span>";
-      $(ele3)
-        .hide()
-        .appendTo($("#p3"))
-        .each(function(i) {
-          $(this)
-            .delay(2500)
-            .delay(10 * i)
-            .css({
+              );
+              });
+              //part3
+              var content3 =
+              "(C) Motherboard, Inc.64-0100-00001-001011111-092909-79297-1AR0 V003-Y2UC Booting from Hard Disk...";
+              var ele3 =
+              "<span>" + content3.split("").join("</span><span>") + "</span>";
+              $(ele3)
+              .hide()
+              .appendTo($("#p3"))
+              .each(function(i) {
+              $(this)
+              .delay(2500)
+              .delay(10 * i)
+              .css({
               display: "inline",
               opacity: 0,
-            })
-            .animate({
-                opacity: 1,
+              })
+              .animate({
+              opacity: 1,
               },
               100
-            );
-        });
-      //part 4
-      var content4 =
-        "Connecting to Worlwide web 3 Lightning Node ... Online. Ethereum Sharding... 0 to 100% Cardano... No Smart contracts found.";
-      var ele4 =
-        "<span>" + content4.split("").join("</span><span>") + "</span>";
-      $(ele4)
-        .hide()
-        .appendTo($("#p4"))
-        .each(function(i) {
-          $(this)
-            .delay(4000)
-            .delay(15 * i)
-            .css({
+              );
+              });
+              //part 4
+              var content4 =
+              "Connecting to Worlwide web 3 Lightning Node ... Online. Ethereum Sharding... 0 to 100% Cardano... No Smart contracts found.";
+              var ele4 =
+              "<span>" + content4.split("").join("</span><span>") + "</span>";
+              $(ele4)
+              .hide()
+              .appendTo($("#p4"))
+              .each(function(i) {
+              $(this)
+              .delay(4000)
+              .delay(15 * i)
+              .css({
               display: "inline",
               opacity: 0,
-            })
-            .animate({
-                opacity: 1,
+              })
+              .animate({
+              opacity: 1,
               },
               100
-            );
-        });
-      //part 5
-      var content5 = "Connecting to JPEGDEALERS.COM terminal. Success...";
-      var ele5 =
-        "<span>" + content5.split("").join("</span><span>") + "</span>";
-      $(ele5)
-        .hide()
-        .appendTo($("#p5"))
-        .each(function(i) {
-          $(this)
-            .delay(5000)
-            .delay(60 * i)
-            .css({
+              );
+              });
+              //part 5
+              var content5 = "Connecting to JPEGDEALERS.COM terminal. Success...";
+              var ele5 =
+              "<span>" + content5.split("").join("</span><span>") + "</span>";
+              $(ele5)
+              .hide()
+              .appendTo($("#p5"))
+              .each(function(i) {
+              $(this)
+              .delay(5000)
+              .delay(60 * i)
+              .css({
               display: "inline",
               opacity: 0,
-            })
-            .animate({
-                opacity: 1,
+              })
+              .animate({
+              opacity: 1,
               },
               100
-            );
-        });
-      //audio functions
-      const audioB = document.getElementById("bootloaderSound");
-      const audioD = document.getElementById("desktopSound");
-      let playingD = true;
-      $(document).ready(function() {
-        audioB.volume = 0.3;
-        audioD.volume = 0.2;
-        audioB.play();
-        setTimeout(function() {
-          audioD.play();
-          console.log("your audio is started just now");
-        }, 9000);
-        $(".play_btn").click(function() {
-          if (playingD == true) {
-            audioD.pause();
-            playingD = false;
-          } else {
-            audioD.play();
-            playingD = true;
-          }
-        });
-      });
-    </script>
+              );
+              });
+              //calendly hide for 9 secs on bootloader
+              //audio functions
+              const audioB = document.getElementById("bootloaderSound");
+              const audioD = document.getElementById("desktopSound");
+              let playingD = true;
+              $(document).ready(function() {
+              audioB.volume = 0.3;
+              audioD.volume = 0.2;
+              audioB.play();
+              setTimeout(function() {
+              audioD.play();
+              console.log("your audio is started just now");
+              }, 9000);
+              $(".play_btn").click(function() {
+              if (playingD == true) {
+              audioD.pause();
+              playingD = false;
+              } else {
+              audioD.play();
+              playingD = true;
+              }
+              });
+              }); < /script>
 </body>
 </html>
